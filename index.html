@@ -1,0 +1,4671 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+
+<!-- Mirrored from optico.themestek.com/demo1/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Nov 2020 06:06:02 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script> 'use strict'; (function (html) { html.className = html.className.replace(/\bno-js\b/, 'js') })(document.documentElement);</script>
+	<title>Optico Demo1 &#8211; Optometrist WordPress theme</title>
+	<style media="screen">
+		#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active,
+		#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active:hover,
+		body #booked-profile-page input[type=submit].button-primary:hover,
+		body .booked-list-view button.button:hover,
+		body .booked-list-view input[type=submit].button-primary:hover,
+		body table.booked-calendar input[type=submit].button-primary:hover,
+		body .booked-modal input[type=submit].button-primary:hover,
+		body table.booked-calendar th,
+		body table.booked-calendar thead,
+		body table.booked-calendar thead th,
+		body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,
+		body #booked-profile-page .booked-profile-header,
+		body #booked-profile-page .booked-tabs li.active a,
+		body #booked-profile-page .booked-tabs li.active a:hover,
+		body #booked-profile-page .appt-block .google-cal-button>a:hover,
+		#ui-datepicker-div.booked_custom_date_picker .ui-datepicker-header {
+			background: #c4f2d4 !important;
+		}
+
+		body #booked-profile-page input[type=submit].button-primary:hover,
+		body table.booked-calendar input[type=submit].button-primary:hover,
+		body .booked-list-view button.button:hover,
+		body .booked-list-view input[type=submit].button-primary:hover,
+		body .booked-modal input[type=submit].button-primary:hover,
+		body table.booked-calendar th,
+		body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,
+		body #booked-profile-page .booked-profile-header,
+		body #booked-profile-page .appt-block .google-cal-button>a:hover {
+			border-color: #c4f2d4 !important;
+		}
+
+		body table.booked-calendar tr.days,
+		body table.booked-calendar tr.days th,
+		body .booked-calendarSwitcher.calendar,
+		body #booked-profile-page .booked-tabs,
+		#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead,
+		#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead th {
+			background: #039146 !important;
+		}
+
+		body table.booked-calendar tr.days th,
+		body #booked-profile-page .booked-tabs {
+			border-color: #039146 !important;
+		}
+
+		#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a,
+		#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a:hover,
+		body #booked-profile-page input[type=submit].button-primary,
+		body table.booked-calendar input[type=submit].button-primary,
+		body .booked-list-view button.button,
+		body .booked-list-view input[type=submit].button-primary,
+		body .booked-list-view button.button,
+		body .booked-list-view input[type=submit].button-primary,
+		body .booked-modal input[type=submit].button-primary,
+		body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,
+		body #booked-profile-page .booked-profile-appt-list .appt-block.approved .status-block,
+		body #booked-profile-page .appt-block .google-cal-button>a,
+		body .booked-modal p.booked-title-bar,
+		body table.booked-calendar td:hover .date span,
+		body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,
+		body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover,
+		.booked-ms-modal .booked-book-appt
+
+		/* Multi-Slot Booking */
+			{
+			background: #56c477;
+		}
+
+		body #booked-profile-page input[type=submit].button-primary,
+		body table.booked-calendar input[type=submit].button-primary,
+		body .booked-list-view button.button,
+		body .booked-list-view input[type=submit].button-primary,
+		body .booked-list-view button.button,
+		body .booked-list-view input[type=submit].button-primary,
+		body .booked-modal input[type=submit].button-primary,
+		body #booked-profile-page .appt-block .google-cal-button>a,
+		body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,
+		body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,
+		body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover {
+			border-color: #56c477;
+		}
+
+		body .booked-modal .bm-window p i.fa,
+		body .booked-modal .bm-window a,
+		body .booked-appt-list .booked-public-appointment-title,
+		body .booked-modal .bm-window p.appointment-title,
+		.booked-ms-modal.visible:hover .booked-book-appt {
+			color: #56c477;
+		}
+
+		.booked-appt-list .timeslot.has-title .booked-public-appointment-title {
+			color: inherit;
+		}
+	</style>
+	<link rel='dns-prefetch' href='http://www.google.com/' />
+	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+	<link rel='dns-prefetch' href='http://s.w.org/' />
+	<link rel="alternate" type="application/rss+xml" title="Optico Demo1 &raquo; Feed" href="feed/index.html" />
+	<link rel="alternate" type="application/rss+xml" title="Optico Demo1 &raquo; Comments Feed"
+		href="comments/feed/index.html" />
+	<script>
+		window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/optico.themestek.com\/demo1\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.9" } };
+		!function (a, b, c) { function d(a, b) { var c = String.fromCharCode; l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, a), 0, 0); var d = k.toDataURL(); l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, b), 0, 0); var e = k.toDataURL(); return d === e } function e(a) { var b; if (!l || !l.fillText) return !1; switch (l.textBaseline = "top", l.font = "600 32px Arial", a) { case "flag": return !(b = d([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819])) && (b = d([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]), !b); case "emoji": return b = d([55357, 56424, 55356, 57342, 8205, 55358, 56605, 8205, 55357, 56424, 55356, 57340], [55357, 56424, 55356, 57342, 8203, 55358, 56605, 8203, 55357, 56424, 55356, 57340]), !b }return !1 } function f(a) { var c = b.createElement("script"); c.src = a, c.defer = c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c) } var g, h, i, j, k = b.createElement("canvas"), l = k.getContext && k.getContext("2d"); for (j = Array("flag", "emoji"), c.supports = { everything: !0, everythingExceptFlag: !0 }, i = 0; i < j.length; i++)c.supports[j[i]] = e(j[i]), c.supports.everything = c.supports.everything && c.supports[j[i]], "flag" !== j[i] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[j[i]]); c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function () { c.DOMReady = !0 }, c.supports.everything || (h = function () { c.readyCallback() }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", h, !1), a.addEventListener("load", h, !1)) : (a.attachEvent("onload", h), b.attachEvent("onreadystatechange", function () { "complete" === b.readyState && c.readyCallback() })), g = c.source || {}, g.concatemoji ? f(g.concatemoji) : g.wpemoji && g.twemoji && (f(g.twemoji), f(g.wpemoji))) }(window, document, window._wpemojiSettings);
+	</script>
+	<style>
+		img.wp-smiley,
+		img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 .07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+	</style>
+	<link rel='stylesheet' id='jquery-ui-css' href='wp-content/plugins/booking-calendar/css/jquery-uiaffa.css?ver=10.7'
+		media='all' />
+	<link rel='stylesheet' id='wpdevart-font-awesome-css'
+		href='wp-content/plugins/booking-calendar/css/font-awesome/font-awesomeaffa.css?ver=10.7' media='all' />
+	<link rel='stylesheet' id='wpdevart-style-css'
+		href='wp-content/plugins/booking-calendar/css/styleaffa.css?ver=10.7' media='all' />
+	<link rel='stylesheet' id='wpdevart-effects-css'
+		href='wp-content/plugins/booking-calendar/css/effectsaffa.css?ver=10.7' media='all' />
+	<link rel='stylesheet' id='wpdevartcalendar-style-css'
+		href='wp-content/plugins/booking-calendar/css/bookingaffa.css?ver=10.7' media='all' />
+	<link rel='stylesheet' id='wp-block-library-css'
+		href='wp-includes/css/dist/block-library/style.min0606.css?ver=5.2.9' media='all' />
+	<link rel='stylesheet' id='wc-block-style-css'
+		href='wp-content/plugins/woo-gutenberg-products-block/build/style3c94.css?ver=2.1.0' media='all' />
+	<link rel='stylesheet' id='twenty20-style-css'
+		href='wp-content/plugins/twenty20/assets/css/twenty209748.css?ver=1.55' media='all' />
+	<link rel='stylesheet' id='booked-icons-css' href='wp-content/plugins/booked/assets/css/icons5bf8.css?ver=2.2.5'
+		media='all' />
+	<link rel='stylesheet' id='booked-tooltipster-css'
+		href='wp-content/plugins/booked/assets/js/tooltipster/css/tooltipster9b70.css?ver=3.3.0' media='all' />
+	<link rel='stylesheet' id='booked-tooltipster-theme-css'
+		href='wp-content/plugins/booked/assets/js/tooltipster/css/themes/tooltipster-light9b70.css?ver=3.3.0'
+		media='all' />
+	<link rel='stylesheet' id='booked-animations-css'
+		href='wp-content/plugins/booked/assets/css/animations5bf8.css?ver=2.2.5' media='all' />
+	<link rel='stylesheet' id='booked-styles-css' href='wp-content/plugins/booked/assets/css/styles5bf8.css?ver=2.2.5'
+		media='all' />
+	<link rel='stylesheet' id='booked-responsive-css'
+		href='wp-content/plugins/booked/assets/css/responsive5bf8.css?ver=2.2.5' media='all' />
+	<link rel='stylesheet' id='contact-form-7-css'
+		href='wp-content/plugins/contact-form-7/includes/css/stylesbdeb.css?ver=5.1.3' media='all' />
+	<link rel='stylesheet' id='rs-plugin-settings-css'
+		href='wp-content/plugins/revslider/public/assets/css/settingsf542.css?ver=5.4.8.3' media='all' />
+	<style id='rs-plugin-settings-inline-css'>
+		#rs-demo-id {}
+	</style>
+	<link rel='stylesheet' id='font-awesome-css'
+		href='wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min1eb7.css?ver=6.0.3'
+		media='all' />
+	<link rel='stylesheet' id='ts-optometrist-icons-css'
+		href='wp-content/themes/optico/libraries/ts-optometrist-icons/font/flaticon0606.css?ver=5.2.9' media='all' />
+	<link rel='stylesheet' id='themify-css'
+		href='wp-content/themes/optico/libraries/themify-icons/themify-icons0606.css?ver=5.2.9' media='all' />
+	<link rel='stylesheet' id='pac-styles-css'
+		href='wp-content/plugins/woocommerce-product-archive-customiser/assets/css/pac0606.css?ver=5.2.9'
+		media='all' />
+	<link rel='stylesheet' id='pac-layout-styles-css'
+		href='wp-content/plugins/woocommerce-product-archive-customiser/assets/css/layout0606.css?ver=5.2.9'
+		media='only screen and (min-width: 768px)' />
+	<link rel='stylesheet' id='woocommerce-layout-css'
+		href='wp-content/plugins/woocommerce/assets/css/woocommerce-layout5aed.css?ver=3.6.4' media='all' />
+	<link rel='stylesheet' id='woocommerce-smallscreen-css'
+		href='wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen5aed.css?ver=3.6.4'
+		media='only screen and (max-width: 768px)' />
+	<link rel='stylesheet' id='woocommerce-general-css'
+		href='wp-content/plugins/woocommerce/assets/css/woocommerce5aed.css?ver=3.6.4' media='all' />
+	<style id='woocommerce-inline-inline-css'>
+		.woocommerce form .form-row .required {
+			visibility: visible;
+		}
+	</style>
+	<link rel='stylesheet' id='booked-fea-styles-css'
+		href='wp-content/plugins/booked-frontend-agents/css/styles5bf8.css?ver=2.2.5' media='all' />
+	<link rel='stylesheet' id='wc-gateway-ppec-frontend-cart-css'
+		href='wp-content/plugins/woocommerce-gateway-paypal-express-checkout/assets/css/wc-gateway-ppec-frontend-cart0606.css?ver=5.2.9'
+		media='all' />
+	<link rel='stylesheet' id='ts-cs-google-fonts-css'
+		href='https://fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C500%2C600%2C700%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CArimo%3A400%7CVollkorn%3A700&amp;ver=1.0.0'
+		media='all' />
+	<link rel='stylesheet' id='perfect-scrollbar-css'
+		href='wp-content/themes/optico/libraries/perfect-scrollbar/perfect-scrollbar.min0606.css?ver=5.2.9'
+		media='all' />
+	<link rel='stylesheet' id='chrisbracco-tooltip-css'
+		href='wp-content/themes/optico/libraries/chrisbracco-tooltip/chrisbracco-tooltip.min0606.css?ver=5.2.9'
+		media='all' />
+	<link rel='stylesheet' id='multi-columns-row-css'
+		href='wp-content/themes/optico/css/multi-columns-row0606.css?ver=5.2.9' media='all' />
+	<link rel='stylesheet' id='ts-select2-css'
+		href='wp-content/themes/optico/libraries/select2/select2.min0606.css?ver=5.2.9' media='all' />
+	<link rel='stylesheet' id='flexslider-css'
+		href='wp-content/plugins/js_composer/assets/lib/bower/flexslider/flexslider.min1eb7.css?ver=6.0.3'
+		media='all' />
+	<link rel='stylesheet' id='ts-optico-icons-css'
+		href='wp-content/themes/optico/libraries/ts-optico-icons/css/ts-optico-icons0606.css?ver=5.2.9' media='all' />
+	<link rel='stylesheet' id='slick-css' href='wp-content/themes/optico/libraries/slick/slick0606.css?ver=5.2.9'
+		media='all' />
+	<link rel='stylesheet' id='slick-theme-css'
+		href='wp-content/themes/optico/libraries/slick/slick-theme0606.css?ver=5.2.9' media='all' />
+	<link rel='stylesheet' id='prettyphoto-css'
+		href='wp-content/plugins/js_composer/assets/lib/prettyphoto/css/prettyPhoto.min1eb7.css?ver=6.0.3'
+		media='all' />
+	<!--[if lt IE 9]>
+<link rel='stylesheet' id='vc_lte_ie9-css'  href='https://optico.themestek.com/demo1/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css?ver=6.0.3'  media='screen' />
+<![endif]-->
+	<link rel='stylesheet' id='js_composer_front-css'
+		href='wp-content/plugins/js_composer/assets/css/js_composer.min1eb7.css?ver=6.0.3' media='all' />
+	<style id='js_composer_front-inline-css'>
+		.vc_custom_1524885182084 {
+			padding-bottom: 30px !important;
+		}
+
+		.vc_custom_1524885257363 {
+			padding-top: 30px !important;
+			padding-bottom: 50px !important;
+		}
+
+		.vc_custom_1524891563799 {
+			padding-top: 0px !important;
+		}
+
+		.vc_custom_1526731977250 {
+			margin-top: -284px !important;
+			padding-top: 240px !important;
+			padding-bottom: 0px !important;
+		}
+
+		.vc_custom_1529144306998 {
+			padding-top: 150px !important;
+			padding-bottom: 120px !important;
+			background-image: url(../wp-content/uploads/2018/02/0873e5.jpg?id=3863) !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1529144572402 {
+			padding-top: 130px !important;
+			padding-bottom: 300px !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1529144475425 {
+			margin-top: -216px !important;
+			padding-top: 0px !important;
+			padding-bottom: 0px !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1529144937185 {
+			padding-top: 150px !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1525000053073 {
+			padding-top: 0px !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1524991462706 {
+			padding-top: 0px !important;
+			padding-bottom: 0px !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1528690071195 {
+			padding-bottom: 280px !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1526293402560 {
+			margin-top: -105px !important;
+			padding-top: 0px !important;
+			padding-bottom: 0px !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1527857176059 {
+			padding-top: 120px !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1527069062415 {
+			padding-top: 60px !important;
+		}
+
+		.vc_custom_1526210490693 {
+			margin-bottom: 0px !important;
+		}
+
+		.vc_custom_1529126036676 {
+			padding-top: 50px !important;
+			padding-bottom: 50px !important;
+		}
+
+		.vc_custom_1529143911986 {
+			padding-right: 0px !important;
+			padding-left: 0px !important;
+		}
+
+		.vc_custom_1529143926991 {
+			padding-top: 60px !important;
+			padding-right: 60px !important;
+			padding-bottom: 40px !important;
+			padding-left: 30px !important;
+		}
+
+		.vc_custom_1525956665080 {
+			margin-bottom: 0px !important;
+		}
+
+		.vc_custom_1527593835476 {
+			margin-bottom: -30px !important;
+		}
+
+		.vc_custom_1527594033124 {
+			margin-top: 15px !important;
+		}
+
+		.vc_custom_1526295015454 {
+			margin-top: -150px !important;
+		}
+
+		.vc_custom_1526946242584 {
+			margin-bottom: 20px !important;
+		}
+
+		.vc_custom_1529675009529 {
+			margin-top: 0px !important;
+			margin-bottom: 0px !important;
+		}
+
+		.vc_custom_1529675033016 {
+			margin-top: 0px !important;
+		}
+
+		.vc_custom_1526294748407 {
+			margin-bottom: 0px !important;
+		}
+
+		.vc_custom_1526946879800 {
+			margin-bottom: 20px !important;
+		}
+
+		.vc_custom_1529675018969 {
+			margin-top: 0px !important;
+			margin-bottom: 0px !important;
+		}
+
+		.vc_custom_1529675039280 {
+			margin-top: 0px !important;
+		}
+
+		.vc_custom_1526294748407 {
+			margin-bottom: 0px !important;
+		}
+
+		.vc_custom_1526946954752 {
+			margin-bottom: 20px !important;
+		}
+
+		.vc_custom_1529675026819 {
+			margin-top: 0px !important;
+			margin-bottom: 0px !important;
+		}
+
+		.vc_custom_1529675046601 {
+			margin-top: 0px !important;
+		}
+
+		.vc_custom_1526294748407 {
+			margin-bottom: 0px !important;
+		}
+
+		.vc_custom_1529144643465 {
+			padding-right: 60px !important;
+		}
+
+		.vc_custom_1524999062760 {
+			margin-top: 5px !important;
+			margin-right: 0px !important;
+			margin-left: 0px !important;
+		}
+
+		.vc_custom_1524998704455 {
+			padding-right: 0px !important;
+			padding-left: 0px !important;
+		}
+
+		.vc_custom_1524998927408 {
+			margin-bottom: 0px !important;
+		}
+
+		.vc_custom_1524998932658 {
+			margin-bottom: 0px !important;
+		}
+
+		.vc_custom_1524999062760 {
+			margin-top: 5px !important;
+			margin-right: 0px !important;
+			margin-left: 0px !important;
+		}
+
+		.vc_custom_1524998704455 {
+			padding-right: 0px !important;
+			padding-left: 0px !important;
+		}
+
+		.vc_custom_1527833878463 {
+			margin-bottom: 0px !important;
+		}
+
+		.vc_custom_1524998932658 {
+			margin-bottom: 0px !important;
+		}
+
+		.vc_custom_1524999062760 {
+			margin-top: 5px !important;
+			margin-right: 0px !important;
+			margin-left: 0px !important;
+		}
+
+		.vc_custom_1524998704455 {
+			padding-right: 0px !important;
+			padding-left: 0px !important;
+		}
+
+		.vc_custom_1527833921799 {
+			margin-bottom: 0px !important;
+		}
+
+		.vc_custom_1524998932658 {
+			margin-bottom: 0px !important;
+		}
+
+		.vc_custom_1524999062760 {
+			margin-top: 5px !important;
+			margin-right: 0px !important;
+			margin-left: 0px !important;
+		}
+
+		.vc_custom_1524998704455 {
+			padding-right: 0px !important;
+			padding-left: 0px !important;
+		}
+
+		.vc_custom_1527833961832 {
+			margin-bottom: 0px !important;
+		}
+
+		.vc_custom_1524998932658 {
+			margin-bottom: 0px !important;
+		}
+	</style>
+	<link rel='stylesheet' id='bootstrap-css' href='wp-content/themes/optico/css/bootstrap.min0606.css?ver=5.2.9'
+		media='all' />
+	<link rel='stylesheet' id='bootstrap-theme-css'
+		href='wp-content/themes/optico/css/bootstrap-theme.min0606.css?ver=5.2.9' media='all' />
+	<link rel='stylesheet' id='optico-core-style-css' href='wp-content/themes/optico/css/core.min0606.css?ver=5.2.9'
+		media='all' />
+	<link rel='stylesheet' id='optico-master-style-css'
+		href='wp-content/themes/optico/css/master.min0606.css?ver=5.2.9' media='all' />
+	<link rel='stylesheet' id='optico-responsive-style-css'
+		href='wp-content/themes/optico/css/responsive.min0606.css?ver=5.2.9' media='all' />
+	<link rel='stylesheet' id='tste-optico-theme-style-css'
+		href='wp-admin/admin-ajax4308.css?action=themestek_theme_css&amp;ver=5.2.9' media='all' />
+	<link rel='stylesheet' id='rpt-css'
+		href='wp-content/plugins/dk-pricr-responsive-pricing-table/inc/css/rpt_style.min0606.css?ver=5.2.9'
+		media='all' />
+
+
+	<script src='wp-includes/js/jquery/jquery4a5f.js?ver=1.12.4-wp'></script>
+	<script src='wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+	<script>
+		/* <![CDATA[ */
+		var wpdevart = { "ajaxUrl": "https:\/\/optico.themestek.com\/demo1\/wp-admin\/admin-ajax.php", "ajaxNonce": "9f60f7e704", "required": "is required.", "file_size": " The file size is too large!", "file_type": " The file type not allowed!", "emailValid": "Enter the valid email address.", "date": "Date", "hour": "Hour" };
+/* ]]> */
+	</script>
+	<script src='wp-content/plugins/booking-calendar/js/bookingaffa.js?ver=10.7'></script>
+	<script src='wp-content/plugins/booking-calendar/js/scriptaffa.js?ver=10.7'></script>
+	<script src='../../www.google.com/recaptcha/apiaffa.js?ver=10.7'></script>
+	<script src='wp-content/plugins/booking-calendar/js/jquery.scrollTo-minaffa.js?ver=10.7'></script>
+	<script
+		src='wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.minf542.js?ver=5.4.8.3'></script>
+	<script
+		src='wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.minf542.js?ver=5.4.8.3'></script>
+	<script src='wp-content/plugins/themestek-optico-extras/js/jquery-resize.min0606.js?ver=5.2.9'></script>
+	<script src='wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70'></script>
+	<script>
+		/* <![CDATA[ */
+		var wc_add_to_cart_params = { "ajax_url": "\/demo1\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/demo1\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View cart", "cart_url": "https:\/\/optico.themestek.com\/demo1\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
+/* ]]> */
+	</script>
+	<script src='wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min5aed.js?ver=3.6.4'></script>
+	<script>
+		/* <![CDATA[ */
+		var wpgmza_google_api_status = { "message": "Enqueued", "code": "ENQUEUED" };
+/* ]]> */
+	</script>
+	<script src='wp-content/plugins/wp-google-maps/wpgmza_data0606.js?ver=5.2.9'></script>
+	<script src='wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart1eb7.js?ver=6.0.3'></script>
+	<script src='wp-content/plugins/dk-pricr-responsive-pricing-table/inc/js/rpt.min0606.js?ver=5.2.9'></script>
+	<link rel='https://api.w.org/' href='wp-json/index.html' />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
+	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
+	<meta name="generator" content="WordPress 5.2.9" />
+	<meta name="generator" content="WooCommerce 3.6.4" />
+	<link rel="canonical" href="index.html" />
+	<link rel='shortlink' href='index.html' />
+	<link rel="alternate" type="application/json+oembed"
+		href="wp-json/oembed/1.0/embede14f.json?url=https%3A%2F%2Foptico.themestek.com%2Fdemo1%2F" />
+	<link rel="alternate" type="text/xml+oembed"
+		href="wp-json/oembed/1.0/embed581a?url=https%3A%2F%2Foptico.themestek.com%2Fdemo1%2F&amp;format=xml" />
+	
+	
+
+
+	<!-- bootstrap cdn -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+	integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+	integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+	<!-- jQuery cdn -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- owl carousal -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+	integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+	crossorigin="anonymous">
+	</script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+	integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+	crossorigin="anonymous" />
+
+	
+	
+
+	
+	<!-- Inline CSS Start -->
+	<style>
+
+		/* Owl Carousal */
+
+		.static {
+			position: static;
+		}
+
+		.cover {
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		.owl-carousel .owl-slide {
+			position: relative;
+			height: 100vh;
+			background-color: lightgray;
+		}
+
+		.owl-carousel .owl-slide-animated {
+			transform: translateX(20px);
+			opacity: 0;
+			visibility: hidden;
+			transition: all 0.05s;
+		}
+
+		.owl-carousel .owl-slide-animated.is-transitioned {
+			transform: none;
+			opacity: 1;
+			visibility: visible;
+			transition: all 0.5s;
+		}
+
+		.owl-carousel .owl-slide-title.is-transitioned {
+			transition-delay: 0.2s;
+		}
+
+		.owl-carousel .owl-slide-subtitle.is-transitioned {
+			transition-delay: 0.35s;
+		}
+
+		.owl-carousel .owl-slide-cta.is-transitioned {
+			transition-delay: 0.5s;
+		}
+
+		.owl-carousel .owl-dots,
+		.owl-carousel .owl-nav {
+			position: absolute;
+		}
+
+		.owl-carousel .owl-dots .owl-dot,
+		.owl-carousel .owl-nav [class*="owl-"]:focus {
+			outline: none;
+		}
+
+		.owl-carousel .owl-dots .owl-dot span {
+			background: transparent;
+			border: 1px solid var(--main-black-color);
+			transition: all 0.2s ease;
+		}
+
+		.owl-carousel .owl-dots .owl-dot:hover span,
+		.owl-carousel .owl-dots .owl-dot.active span {
+			background: var(--main-black-color);
+		}
+
+		.owl-carousel .owl-nav {
+			left: 50%;
+			top: 10%;
+			transform: translateX(-50%);
+			margin: 0;
+		}
+
+		.owl-carousel .owl-nav svg {
+			opacity: 0.3;
+			transition: opacity 0.3s;
+		}
+
+		.owl-carousel .owl-nav button:hover svg {
+			opacity: 1;
+		}
+
+		.owl-carousel .owl-nav [class*="owl-"]:hover {
+			background: transparent;
+		}
+
+		@media screen and (max-width: 575px) {
+			.owl-carousel .owl-nav {
+				top: 5%;
+			}
+
+			.owl-carousel .owl-nav svg {
+				width: 24px;
+				height: 24px;
+			}
+		}
+
+		/* owl-carousel ends */
+
+
+
+		.vc_custom_1524885182084>.ts-row-wrapper-bg-layer {
+			padding-bottom: 30px !important;
+		}
+
+		.vc_custom_1524885182084>.ts-row-wrapper-bg-layer {
+			background-image: none !important;
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+		.vc_custom_1524885257363>.ts-row-wrapper-bg-layer {
+			padding-top: 30px !important;
+			padding-bottom: 50px !important;
+		}
+
+		.vc_custom_1524885257363>.ts-row-wrapper-bg-layer {
+			background-image: none !important;
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+		.vc_custom_1524891563799>.ts-row-wrapper-bg-layer {
+			padding-top: 0px !important;
+		}
+
+		.vc_custom_1524891563799>.ts-row-wrapper-bg-layer {
+			background-image: none !important;
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+		@media (max-width: 767px) {
+			.ts-column>.ts-responsive-custom-78006773 {
+				margin-bottom: 50px !important;
+			}
+		}
+
+		.vc_custom_1526731977250>.ts-row-wrapper-bg-layer {
+			margin-top: -284px !important;
+			padding-top: 240px !important;
+			padding-bottom: 0px !important;
+		}
+
+		.vc_custom_1526731977250>.ts-row-wrapper-bg-layer {
+			background-image: none !important;
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+		.vc_custom_1529144306998>.ts-row-wrapper-bg-layer {
+			padding-top: 150px !important;
+			padding-bottom: 120px !important;
+			background-image: url(../wp-content/uploads/2018/02/0873e5.jpg?id=3863) !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1529144306998>.ts-row-wrapper-bg-layer {
+			background-image: none !important;
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+		@media (max-width: 991px) {
+			.ts-row.ts-responsive-custom-58469909 {
+				padding-top: 80px !important;
+				padding-bottom: 20px !important;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.ts-row.ts-responsive-custom-58469909 {
+				padding-top: 70px !important;
+				padding-bottom: 10px !important;
+			}
+		}
+
+		.vc_custom_1529144572402>.ts-row-wrapper-bg-layer {
+			padding-top: 130px !important;
+			padding-bottom: 300px !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1529144572402>.ts-row-wrapper-bg-layer {
+			background-image: none !important;
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+		@media (max-width: 991px) {
+			.ts-row.ts-responsive-custom-22855088 {
+				padding-top: 80px !important;
+				padding-bottom: 50px !important;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.ts-row.ts-responsive-custom-22855088 {
+				padding-top: 80px !important;
+				padding-bottom: 0 !important;
+			}
+		}
+
+		.vc_custom_1527593835476 {
+			margin-bottom: -30px !important;
+		}
+
+		.vc_custom_1529144475425>.ts-row-wrapper-bg-layer {
+			margin-top: -216px !important;
+			padding-top: 0px !important;
+			padding-bottom: 0px !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1529144475425>.ts-row-wrapper-bg-layer {
+			background-image: none !important;
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+		@media (max-width: 991px) {
+			.ts-row.ts-responsive-custom-42302505 {
+				margin-top: 0 !important;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.ts-row.ts-responsive-custom-42302505 {
+				margin-top: 0 !important;
+			}
+		}
+
+		.vc_custom_1529144937185>.ts-row-wrapper-bg-layer {
+			padding-top: 150px !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1529144937185>.ts-row-wrapper-bg-layer {
+			background-image: none !important;
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+		@media (max-width: 991px) {
+			.ts-row.ts-responsive-custom-63602843 {
+				padding-top: 70px !important;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.ts-row.ts-responsive-custom-63602843 {
+				padding-top: 70px !important;
+			}
+		}
+
+		.vc_custom_1525000053073>.ts-row-wrapper-bg-layer {
+			padding-top: 0px !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1525000053073>.ts-row-wrapper-bg-layer {
+			background-image: none !important;
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+		.vc_custom_1524991462706>.ts-row-wrapper-bg-layer {
+			padding-top: 0px !important;
+			padding-bottom: 0px !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1524991462706>.ts-row-wrapper-bg-layer {
+			background-image: none !important;
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+		.vc_custom_1528690071195>.ts-row-wrapper-bg-layer {
+			padding-bottom: 280px !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1528690071195>.ts-row-wrapper-bg-layer {
+			background-image: none !important;
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+		@media (max-width: 767px) {
+			.ts-column-inner>.ts-responsive-custom-82897190 {
+				margin-top: 35px !important;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.ts-column-inner>.ts-responsive-custom-56702956 {
+				margin-top: 35px !important;
+			}
+		}
+
+		.vc_custom_1526293402560>.ts-row-wrapper-bg-layer {
+			margin-top: -105px !important;
+			padding-top: 0px !important;
+			padding-bottom: 0px !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1526293402560>.ts-row-wrapper-bg-layer {
+			background-image: none !important;
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+		@media (max-width: 991px) {
+			.ts-column>.ts-responsive-custom-71087360 {
+				padding-right: 15px !important;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.ts-column>.ts-responsive-custom-71087360 {
+				padding-right: 15px !important;
+			}
+		}
+
+		.vc_custom_1527857176059>.ts-row-wrapper-bg-layer {
+			padding-top: 120px !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+		}
+
+		.vc_custom_1527857176059>.ts-row-wrapper-bg-layer {
+			background-image: none !important;
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+	</style><!-- Inline CSS End -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121833870-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-121833870-2');
+	</script> <noscript>
+		<style>
+			.woocommerce-product-gallery {
+				opacity: 1 !important;
+			}
+		</style>
+	</noscript>
+	<style>
+		.recentcomments a {
+			display: inline !important;
+			padding: 0 !important;
+			margin: 0 !important;
+		}
+	</style>
+	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+	<meta name="generator"
+		content="Powered by Slider Revolution 5.4.8.3 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+	<link rel="icon" href="wp-content/uploads/sites/2/2018/06/cropped-favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" href="wp-content/uploads/sites/2/2018/06/cropped-favicon-192x192.png" sizes="192x192" />
+	<link rel="apple-touch-icon-precomposed" href="wp-content/uploads/sites/2/2018/06/cropped-favicon-180x180.png" />
+	<meta name="msapplication-TileImage"
+		content="https://optico.themestek.com/demo1/wp-content/uploads/sites/2/2018/06/cropped-favicon-270x270.png" />
+
+
+	<script>function setREVStartSize(e) {
+			try {
+				e.c = jQuery(e.c); var i = jQuery(window).width(), t = 9999, r = 0, n = 0, l = 0, f = 0, s = 0, h = 0;
+				if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function (e, f) { f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e) }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) { var u = (e.c.width(), jQuery(window).height()); if (void 0 != e.fullScreenOffsetContainer) { var c = e.fullScreenOffsetContainer.split(","); if (c) jQuery.each(c, function (e, i) { u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0)) } f = u } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight); e.c.closest(".rev_slider_wrapper").css({ height: f })
+			} catch (d) { console.log("Failure at Presize of Slider:" + d) }
+		};</script>
+	<noscript>
+		<style>
+			.wpb_animate_when_almost_visible {
+				opacity: 1;
+			}
+		</style>
+	</noscript>
+</head>
+
+<body
+	class="home page-template-default page page-id-3960 wc-pac-hide-sale-flash woocommerce-no-js ts-headerstyle-infostack themestek-wide themestek-page-full-width ts-empty-sidebar wpb-js-composer js-comp-ver-6.0.3 vc_responsive">
+
+	<div id="ts-home"></div>
+	<div class="main-holder">
+
+		<div id="page" class="hfeed site">
+
+			<header id="masthead" class=" ts-header-style-infostack themestek-main-menu-total-6">
+				<div
+					class="ts-header-block  ts-mmenu-active-color-skin ts-dmenu-active-color-custom ts-dmenu-sep-white">
+
+					<div class="ts-search-overlay">
+						<div class="ts-search-outer">
+							<div class="ts-search-logo"><img
+									src="wp-content/uploads/sites/2/2018/06/logo-searchbg.png"
+									alt="Optico Demo1" /></div>
+							<div class="ts-icon-close"></div>
+
+							<form method="get" class="ts-site-searchform"
+								action="https://optico.themestek.com/demo1">
+								<input type="search" class="field searchform-s" name="s"
+									placeholder="Type Word Then Enter" />
+								<button type="submit"><span class="ts-optico-icon-search"></span></button>
+							</form>
+						</div>
+					</div>
+
+					<div class="themestek-pre-header-wrapper ts-bgcolor-white ts-textcolor-dark">
+						<div class="themestek-pre-header-inner">
+							<div class="container">
+								<div class="ts-table ts-pre-header-content">
+									<div class="ts-table-cell">
+										<ul class="top-contact">
+											<li><i class="ts-optico-icon-location-pin"></i>7501 Carrlton
+												Cuevas Rd, Gulfport, MS, 395503</li>
+										</ul>
+									</div>
+									<div class="ts-table-cell ts-align-right">
+										<ul class="top-contact ts-highlight">
+											<li><i class="ti-time"></i>Mon - Sat 8.00 - 18.00</li>
+										</ul>
+										<div class="ts-last-sep-none">
+											<div class="themestek-social-links-wrapper">
+												<ul class="social-icons">
+													<li class="ts-social-facebook"><a class=" tooltip-top"
+															target="_blank" href="#"><i
+																class="ts-optico-icon-facebook"></i></a>
+													</li>
+													<li class="ts-social-twitter"><a class=" tooltip-top"
+															target="_blank" href="#"><i
+																class="ts-optico-icon-twitter"></i></a>
+													</li>
+													<li class="ts-social-flickr"><a class=" tooltip-top"
+															target="_blank" href="#"><i
+																class="ts-optico-icon-flickr"></i></a>
+													</li>
+													<li class="ts-social-linkedin"><a class=" tooltip-top"
+															target="_blank" href="#"><i
+																class="ts-optico-icon-linkedin"></i></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div id="site-header"
+						class="site-header ts-bgcolor-white ts-sticky-bgcolor-white ts-mmmenu-override-yes ts-above-content-yes">
+						<div class="site-header-main ts-table">
+
+							<div class="ts-header-top-wrapper container">
+								<div class="site-branding">
+									<div class="headerlogo themestek-logotype-image ts-stickylogo-no">
+										<h1 class="site-title"><a class="home-link" href="index.html"
+												title="Optico Demo1" rel="home"><span
+													class="ts-sc-logo ts-sc-logo-type-image"><img
+														class="themestek-logo-img standardlogo"
+														alt="Optico Demo1"
+														src="wp-content/uploads/sites/2/2018/06/logo.png"></span></a>
+										</h1>
+										<h2 class="site-description">Optometrist WordPress theme</h2>
+									</div>
+								</div><!-- .site-branding -->
+								<div class="ts-infostack-right-content">
+									<div class="info-widget">
+										<div class="info-widget-inner">
+											<div class="media-left">
+												<div class="icon"> <i class="ts-optico-icon-mail"></i></div>
+											</div>
+											<div class="media-right">
+												<h6>Email us </h6>
+												<h3>info@optico.com </h3>
+											</div>
+										</div>
+									</div>
+									<div class="info-widget">
+										<div class="info-widget-inner">
+											<div class="media-left">
+												<div class="icon"> <i
+														class="ts-optico-icon-headphone-alt"></i></div>
+											</div>
+											<div class="media-right">
+												<h6>Call us now </h6>
+												<h3>123456789 </h3>
+											</div>
+										</div>
+									</div>
+									<div class="info-widget">
+										<div class="info-widget-inner">
+
+											<div class="ts-vc_btn3-container ts-vc_btn3-inline"><a
+													class="ts-vc_general ts-vc_btn3 ts-vc_btn3-size-md ts-vc_btn3-shape-rounded ts-vc_btn3-style-outline ts-vc_btn3-weight-yes ts-vc_btn3-color-skincolor"
+													href="#" title="">APPOINTMENT</a></div>
+										</div>
+									</div>
+
+
+
+								</div>
+							</div><!-- .ts-header-top-wrapper -->
+
+							<div id="ts-stickable-header-w" class="ts-stickable-header-w ts-bgcolor-white"
+								style="height:60px">
+								<div id="site-header-menu" class="site-header-menu">
+									<div
+										class="site-header-menu-inner ts-stickable-header  ts-header-menu-bg-color-darkgrey ts-bgcolor-darkgrey ts-sticky-bgcolor-darkgrey">
+										<div
+											class="site-header-menu-middle  ts-header-menu-bg-color-darkgrey ts-bgcolor-darkgrey ts-sticky-bgcolor-darkgrey">
+											<div class="container ">
+
+												<div>
+													<nav id="site-navigation" class="main-navigation"
+														aria-label="Primary Menu" data-sticky-height="70">
+
+														<button id="menu-toggle" class="menu-toggle">
+															<span class="ts-hide">Toggle menu</span><i
+																class="ts-optico-icon-bars"></i>
+														</button>
+
+
+														<div class="nav-menu">
+															<ul id="menu-main-menu" class="nav-menu">
+																<li id="menu-item-5259"
+																	class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-5259">
+																	<a href="#">Home</a>
+																	<ul class="sub-menu">
+																		<li id="menu-item-5269"
+																			class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5269">
+																			<a
+																				href="homepage-1/index.html">Homepage
+																				1</a></li>
+																		<li id="menu-item-5274"
+																			class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-3960 current_page_item menu-item-5274">
+																			<a href="index.html"
+																				aria-current="page">Homepage
+																				2</a></li>
+																		<li id="menu-item-5270"
+																			class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5270">
+																			<a
+																				href="homepage-3/index.html">Homepage
+																				3</a></li>
+																	</ul>
+																</li>
+																<li id="menu-item-5248"
+																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5248">
+																	<a href="#">Pages</a>
+																	<ul class="sub-menu">
+																		<li id="menu-item-5271"
+																			class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5271">
+																			<a
+																				href="about-us/index.html">About
+																				Us</a></li>
+																		<li id="menu-item-5272"
+																			class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5272">
+																			<a
+																				href="treatments/index.html">Treatments</a>
+																		</li>
+																		<li id="menu-item-5277"
+																			class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5277">
+																			<a
+																				href="make-appointments/index.html">Make
+																				Appointments</a>
+																		</li>
+																		<li id="menu-item-5276"
+																			class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5276">
+																			<a
+																				href="our-doctors/index.html">Our
+																				Doctors</a></li>
+																		<li id="menu-item-5278"
+																			class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5278">
+																			<a
+																				href="faq/index.html">Faq</a>
+																		</li>
+																		<li id="menu-item-5263"
+																			class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5263">
+																			<a
+																				href="elements/index.html">Elements</a>
+																		</li>
+																	</ul>
+																</li>
+																<li id="menu-item-5249"
+																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5249">
+																	<a href="#">Services</a>
+																	<ul class="sub-menu">
+																		<li id="menu-item-5279"
+																			class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5279">
+																			<a
+																				href="services-style-1/index.html">Services
+																				Style 1</a></li>
+																		<li id="menu-item-5280"
+																			class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5280">
+																			<a
+																				href="services-style-2/index.html">Services
+																				Style 2</a></li>
+																		<li id="menu-item-5293"
+																			class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5293">
+																			<a
+																				href="services-style-3/index.html">Services
+																				Style 3</a></li>
+																		<li id="menu-item-5261"
+																			class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5261">
+																			<a href="#">Services
+																				Single</a>
+																			<ul class="sub-menu">
+																				<li id="menu-item-5346"
+																					class="menu-item menu-item-type-post_type menu-item-object-ts-portfolio menu-item-5346">
+																					<a
+																						href="optometrist-service/paeditaric-ophthalmology/index.html">Single
+																						Style
+																						1</a></li>
+																				<li id="menu-item-5347"
+																					class="menu-item menu-item-type-post_type menu-item-object-ts-portfolio menu-item-5347">
+																					<a
+																						href="optometrist-service/surgical-procedures/index.html">Single
+																						Style
+																						2</a></li>
+																				<li id="menu-item-5348"
+																					class="menu-item menu-item-type-post_type menu-item-object-ts-portfolio menu-item-5348">
+																					<a
+																						href="optometrist-service/transitions-lenses/index.html">Single
+																						Style
+																						3</a></li>
+																			</ul>
+																		</li>
+																	</ul>
+																</li>
+																<li id="menu-item-5282"
+																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5282">
+																	<a href="before-after/index.html">Before
+																		&#038; After</a></li>
+																<li id="menu-item-5260"
+																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5260">
+																	<a href="#">Blog</a>
+																	<ul class="sub-menu">
+																		<li id="menu-item-5275"
+																			class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5275">
+																			<a
+																				href="blog/index.html">Blog
+																				Large Image</a></li>
+																		<li id="menu-item-5281"
+																			class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5281">
+																			<a
+																				href="blog-grid-view/index.html">Blog
+																				Grid View</a></li>
+																		<li id="menu-item-5292"
+																			class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5292">
+																			<a
+																				href="blog-left-image-view/index.html">Blog
+																				Left Image</a></li>
+																		<li id="menu-item-5268"
+																			class="menu-item menu-item-type-post_type menu-item-object-post menu-item-5268">
+																			<a
+																				href="2017/09/29/make-sure-your-childs-eyes-are-ready-for-school-and-activities/index.html">Blog
+																				Single View</a></li>
+																	</ul>
+																</li>
+																<li id="menu-item-5273"
+																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5273">
+																	<a href="contact-us/index.html">Contact
+																		Us</a></li>
+															</ul>
+														</div>
+													</nav><!-- .main-navigation -->
+												</div>
+												<div class="ts-phone">
+
+													<div class="ts-search-overlay">
+														<div class="ts-search-outer">
+															<div class="ts-search-logo"><img
+																	src="wp-content/uploads/sites/2/2018/06/logo-searchbg.png"
+																	alt="Optico Demo1" /></div>
+															<div class="ts-icon-close"></div>
+
+															<form method="get" class="ts-site-searchform"
+																action="https://optico.themestek.com/demo1">
+																<input type="search"
+																	class="field searchform-s" name="s"
+																	placeholder="Type Word Then Enter" />
+																<button type="submit"><span
+																		class="ts-optico-icon-search"></span></button>
+															</form>
+														</div>
+													</div>
+													<div class="ts-header-icons "><span
+															class="ts-header-icon ts-header-wc-cart-link"><a
+																href="cart/index.html"><i
+																	class="ts-optico-icon-shopping-cart"></i><span
+																	class="number-cart">0</span></a></span><span
+															class="ts-header-icon ts-header-search-link"><a
+																href="#"><i
+																	class="ts-optico-icon-search-1"></i></a></span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div><!-- .site-header-menu -->
+							</div>
+
+						</div><!-- .site-header-main -->
+					</div>
+
+					<!-- SLIDER Carousal  -->
+
+					<div class="owl-carousel owl-theme">
+						<div class="owl-slide d-flex align-items-center cover"
+							style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/owlcarousel1.jpg);">
+							<div class="container">
+								<div class="row justify-content-center justify-content-md-start">
+									<div class="col-10 col-md-6 static">
+										<div class="owl-slide-text">
+											<h2 class="owl-slide-animated owl-slide-title">The bedding was
+												hardly able to cover it</h2>
+											<div class="owl-slide-animated owl-slide-subtitle mb-3">
+												One morning, when Gregor Samsa woke from troubled dreams, he
+												found himself transformed in his bed into a horrible vermin.
+											</div>
+											<a class="btn btn-primary owl-slide-animated owl-slide-cta"
+												href="https://unsplash.com/photos/pgR4yBMjum8"
+												target="_blank" role="button">See Original Image</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--/owl-slide-->
+
+						<div class="owl-slide d-flex align-items-center cover"
+							style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/owlcarousel2.jpg);">
+							<div class="container">
+								<div class="row justify-content-center justify-content-md-start">
+									<div class="col-10 col-md-6 static">
+										<div class="owl-slide-text">
+											<h2 class="owl-slide-animated owl-slide-title">Samsa was a
+												travelling salesman.</h2>
+											<div class="owl-slide-animated owl-slide-subtitle mb-3">
+												It showed a lady fitted out with a fur hat and fur boa who
+												sat upright, raising a heavy fur muff that covered the whole
+												of her lower arm towards the viewer. Gregor then turned to
+												look out the window at the dull weather.
+											</div>
+											<a class="btn btn-primary owl-slide-animated owl-slide-cta"
+												href="https://unsplash.com/photos/Ijx8OxvKrgM"
+												target="_blank" role="button">See Original Image</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--/owl-slide-->
+
+						<div class="owl-slide d-flex align-items-center cover"
+							style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/owlcarousel3.jpg);">
+							<div class="container">
+								<div class="row justify-content-center justify-content-md-start">
+									<div class="col-10 col-md-6 static">
+										<div class="owl-slide-text">
+											<h2 class="owl-slide-animated owl-slide-title">A collection of
+												textile samples.</h2>
+											<div class="owl-slide-animated owl-slide-subtitle mb-3">
+												He lay on his armour-like back, and if he lifted his head a
+												little he could see his brown belly.
+											</div>
+											<a class="btn btn-primary owl-slide-animated owl-slide-cta"
+												href="https://unsplash.com/photos/7uwbhGSH5Fg"
+												target="_blank" role="button">See Original Image</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--/owl-slide-->
+					</div>
+
+					<script>
+						/*JS way for setting height: 100vh to slides' height*/
+						/*const $slides = $(".owl-carousel .owl-slide");
+						$slides.css("height", $(window).height());
+						$(window).resize(() => {
+						  $slides.css("height", $(window).height());
+						});*/
+
+						$(".owl-carousel").on("initialized.owl.carousel", () => {
+							setTimeout(() => {
+								$(".owl-item.active .owl-slide-animated").addClass("is-transitioned");
+								$("section").show();
+							}, 200);
+						});
+
+						const $owlCarousel = $(".owl-carousel").owlCarousel({
+							items: 1,
+							loop: true,
+							nav: true,
+							navText: [
+								'<svg width="50" height="50" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>',
+								'<svg width="50" height="50" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>' /* icons from https://iconmonstr.com */
+							]
+						});
+
+						$owlCarousel.on("changed.owl.carousel", e => {
+							$(".owl-slide-animated").removeClass("is-transitioned");
+
+							const $currentOwlItem = $(".owl-item").eq(e.item.index);
+							$currentOwlItem.find(".owl-slide-animated").addClass("is-transitioned");
+
+							const $target = $currentOwlItem.find(".owl-slide-text");
+							doDotsCalculations($target);
+						});
+
+						$owlCarousel.on("resize.owl.carousel", () => {
+							setTimeout(() => {
+								setOwlDotsPosition();
+							}, 50);
+						});
+
+						/*if there isn't content underneath the carousel*/
+						//$owlCarousel.trigger("refresh.owl.carousel");
+
+						setOwlDotsPosition();
+
+						function setOwlDotsPosition() {
+							const $target = $(".owl-item.active .owl-slide-text");
+							doDotsCalculations($target);
+						}
+
+						function doDotsCalculations(el) {
+							const height = el.height();
+							const { top, left } = el.position();
+							const res = height + top + 20;
+
+							$(".owl-carousel .owl-dots").css({
+								top: `${res}px`,
+								left: `${left}px`
+							});
+						}
+					</script>
+
+			</header><!-- .site-header -->
+			<div id="content-wrapper" class="site-content-wrapper">
+
+
+				<div id="content" class="site-content ">
+					<div id="content-inner" class="site-content-inner ">
+
+						<div id="primary" class="content-area  ">
+							<main id="main" class="site-main">
+
+
+								<article id="post-3960" class="post-3960 page type-page status-publish hentry">
+
+
+									<header class="single-entry-header ts-hide">
+										<h2 class="entry-title">Homepage 2</h2>
+									</header><!-- .entry-header -->
+
+									<div class="entry-content">
+										<div
+											class="ts-row wpb_row vc_row-fluid vc_custom_1524885182084 vc_row container ts-bgimage-position-center_center">
+
+
+
+
+											<div
+												class="ts-column wpb_column vc_column_container vc_col-sm-4">
+												<div class="vc_column-inner  ">
+													<div class="wpb_wrapper">
+
+														<div
+															class="ts-servicebox ts-servicebox-style-4 ts-sbox-style-4 ts-sbox-itype-text">
+
+															<div class="ts-sbox-icon">
+																<div
+																	class="ts-sbox-icon-wrapper ts-sbox-icon-type-text">
+																	01.</div>
+															</div>
+
+															<div class="ts-sbox-contents">
+																<div
+																	class="ts-vc_general ts-vc_cta3 ts-cta3-only ts-vc_cta3-style-classic ts-vc_cta3-shape-rounded ts-vc_cta3-align-left ts-vc_cta3-color-transparent ts-vc_cta3-icon-size-md ts-vc_cta3-actions-no ts-cta3-with-desc">
+																	<div
+																		class="ts-vc_cta3_content-container">
+																		<div
+																			class="ts-vc_cta3-content">
+																			<div
+																				class="ts-vc_cta3-content-header ts-wrap">
+																				<div
+																					class="ts-vc_cta3-headers ts-wrap-cell">
+																					<h2
+																						class="ts-custom-heading ">
+																						Cornea
+																						Services
+																					</h2>
+																				</div>
+																			</div>
+																			<div
+																				class="ts-cta3-content-wrapper">
+																				<p>Visual acuity
+																					test sit amet,
+																					consectetur
+																					adipisicing
+																					elit, sed do
+																					eiusmod tempor
+																					incididunt ut
+																					labore et </p>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div><!-- .ts-sbox-contents -->
+
+														</div>
+
+													</div>
+												</div>
+											</div>
+
+
+											<div
+												class="ts-column wpb_column vc_column_container vc_col-sm-4">
+												<div class="vc_column-inner  ">
+													<div class="wpb_wrapper">
+
+														<div
+															class="ts-servicebox ts-servicebox-style-4 ts-sbox-style-4 ts-sbox-itype-text">
+
+															<div class="ts-sbox-icon">
+																<div
+																	class="ts-sbox-icon-wrapper ts-sbox-icon-type-text">
+																	02.</div>
+															</div>
+
+															<div class="ts-sbox-contents">
+																<div
+																	class="ts-vc_general ts-vc_cta3 ts-cta3-only ts-vc_cta3-style-classic ts-vc_cta3-shape-rounded ts-vc_cta3-align-left ts-vc_cta3-color-transparent ts-vc_cta3-icon-size-md ts-vc_cta3-actions-no ts-cta3-with-desc">
+																	<div
+																		class="ts-vc_cta3_content-container">
+																		<div
+																			class="ts-vc_cta3-content">
+																			<div
+																				class="ts-vc_cta3-content-header ts-wrap">
+																				<div
+																					class="ts-vc_cta3-headers ts-wrap-cell">
+																					<h2
+																						class="ts-custom-heading ">
+																						Glaucoma
+																						Services
+																					</h2>
+																				</div>
+																			</div>
+																			<div
+																				class="ts-cta3-content-wrapper">
+																				<p>Retinoscopy &amp;
+																					Refraction
+																					amet,
+																					consectetur
+																					adipisicing
+																					elit, sed do
+																					eiusmod tempor
+																					incididunt ut
+																					labore </p>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div><!-- .ts-sbox-contents -->
+
+														</div>
+
+													</div>
+												</div>
+											</div>
+
+
+											<div
+												class="ts-column wpb_column vc_column_container vc_col-sm-4">
+												<div class="vc_column-inner  ">
+													<div class="wpb_wrapper">
+
+														<div
+															class="ts-servicebox ts-servicebox-style-4 ts-sbox-style-4 ts-sbox-itype-text">
+
+															<div class="ts-sbox-icon">
+																<div
+																	class="ts-sbox-icon-wrapper ts-sbox-icon-type-text">
+																	03.</div>
+															</div>
+
+															<div class="ts-sbox-contents">
+																<div
+																	class="ts-vc_general ts-vc_cta3 ts-cta3-only ts-vc_cta3-style-classic ts-vc_cta3-shape-rounded ts-vc_cta3-align-left ts-vc_cta3-color-transparent ts-vc_cta3-icon-size-md ts-vc_cta3-actions-no ts-cta3-with-desc">
+																	<div
+																		class="ts-vc_cta3_content-container">
+																		<div
+																			class="ts-vc_cta3-content">
+																			<div
+																				class="ts-vc_cta3-content-header ts-wrap">
+																				<div
+																					class="ts-vc_cta3-headers ts-wrap-cell">
+																					<h2
+																						class="ts-custom-heading ">
+																						Retina
+																						Services
+																					</h2>
+																				</div>
+																			</div>
+																			<div
+																				class="ts-cta3-content-wrapper">
+																				<p>Non-contact
+																					Tonometer &amp;
+																					Tonopen test
+																					adipisicing
+																					elit, sed do
+																					eiusmod tempor
+																					incididunt ut
+																					labore</p>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div><!-- .ts-sbox-contents -->
+
+														</div>
+
+													</div>
+												</div>
+											</div>
+
+
+										</div>
+
+
+
+										<div
+											class="ts-row wpb_row vc_row-fluid vc_custom_1524885257363 vc_row container ts-bgimage-position-center_center">
+
+
+
+
+											<div
+												class="ts-column wpb_column vc_column_container vc_col-sm-12">
+												<div class="vc_column-inner  ">
+													<div class="wpb_wrapper">
+														<div
+															class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text">
+															<span class="vc_sep_holder vc_sep_holder_l"><span
+																	style="border-color:#ebebe9;"
+																	class="vc_sep_line"></span></span><span
+																class="vc_sep_holder vc_sep_holder_r"><span
+																	style="border-color:#ebebe9;"
+																	class="vc_sep_line"></span></span>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+										</div>
+
+
+
+										<div
+											class="ts-row wpb_row vc_row-fluid ts-overlap-row-section vc_custom_1524891563799 vc_row container ts-bgimage-position-center_center">
+
+
+
+
+											<div
+												class="ts-column wpb_column vc_column_container vc_col-sm-12">
+												<div class="vc_column-inner  ">
+													<div class="wpb_wrapper">
+														<div class="themestek-boxes themestek-boxes-static themestek-boxes-view-carousel themestek-boxes-col-three themestek-boxes-sortable- themestek-boxes-textalign-center themestek-boxes-sortablebutton- ts-boxes-carousel-arrows-side"
+															data-ts-speed="1500" data-ts-autoplay="1"
+															data-ts-autoplayspeed="4500" data-ts-loop="1"
+															data-ts-dots="0" data-ts-nav="0"
+															data-ts-centermode="0"
+															data-ts-pauseonfocus="1"
+															data-ts-pauseonhover="1"
+															data-ts-slidestoscroll="column"
+															data-ts-effecttype="slide">
+															<div
+																class="themestek-boxes-inner themestek-boxes-static-inner ">
+																<div
+																	class="themestek-box-heading-wrapper ts-element-align-center">
+																	<div
+																		class="ts-element-heading-wrapper ts-heading-inner ts-element-align-center ts-seperator-none ">
+																		<section
+																			class="ts-vc_cta3-container">
+																			<div
+																				class="ts-vc_general ts-vc_cta3 ts-cta3-only ts-vc_cta3-style-classic ts-vc_cta3-shape-rounded ts-vc_cta3-align-center ts-vc_cta3-color-transparent ts-vc_cta3-icon-size-md ts-vc_cta3-actions-no ts-cta3-with-desc">
+																				<div
+																					class="ts-vc_cta3_content-container">
+																					<div
+																						class="ts-vc_cta3-content">
+																						<div
+																							class="ts-vc_cta3-content-header ts-wrap">
+																							<div
+																								class="ts-vc_cta3-headers ts-wrap-cell">
+																								<h4
+																									class="ts-custom-heading ">
+																									BEST
+																									VISION
+																								</h4>
+																								<h2
+																									class="ts-custom-heading ">
+																									GIVE
+																									BEST
+																									CARE
+																									FOR
+																									YOUR
+																									EYES<br />
+																									<strong>
+																										OUR
+																										EYE
+																										SERVICES</strong>
+																								</h2>
+																							</div>
+																						</div>
+																						<div
+																							class="ts-cta3-content-wrapper">
+																							<p>Expert
+																								eyecare,
+																								latest
+																								eyewear
+																								consectetur
+																								adipisicing
+																								elit,
+																								sed
+																								do
+																								eiusmod
+																								tempor
+																								incididunt
+																								ut
+																								labore
+																								et
+																							</p>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</section>
+																	</div>
+																	<!-- .ts-element-heading-wrapper container -->
+																</div>
+																<!-- .ts-element-heading-wrapper container -->
+																<div
+																	class="row multi-columns-row themestek-boxes-row-wrapper box-shadow-2">
+																	<div
+																		class="ts-box-col-wrapper col-lg-4 col-sm-6 col-md-4 col-xs-12 ">
+																		<div
+																			class="themestek-static-box-wrapper themestek-boxes-feature-plans ts-hover-style-2 themestek-box">
+																			<div
+																				class="themestek-static-box-image">
+																				<img class="ts_vc_single_image-img "
+																					src="wp-content/uploads/sites/2/2018/02/07-380x222.jpg"
+																					width="380"
+																					height="222"
+																					alt="07"
+																					title="07" />
+																			</div>
+																			<div
+																				class="themestek-static-box-content">
+																				<div
+																					class="themestek-box-title">
+																					<h4>Surgical
+																						Procedures
+																					</h4>
+																				</div>
+																				<div
+																					class="themestek-static-box-desc">
+																					Doctor
+																					Timetable Lorem
+																					ipsum dolor sit
+																					amet,
+																					consectetur
+																					adipisicing
+																					elit, sed do
+																					eiusmod tempor
+																					incididunt.
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div
+																		class="ts-box-col-wrapper col-lg-4 col-sm-6 col-md-4 col-xs-12 ">
+																		<div
+																			class="themestek-static-box-wrapper themestek-boxes-feature-plans ts-hover-style-2 themestek-box">
+																			<div
+																				class="themestek-static-box-image">
+																				<img class="ts_vc_single_image-img "
+																					src="wp-content/uploads/sites/2/2018/04/sliderimage-380x222.jpg"
+																					width="380"
+																					height="222"
+																					alt="sliderimage"
+																					title="sliderimage" />
+																			</div>
+																			<div
+																				class="themestek-static-box-content">
+																				<div
+																					class="themestek-box-title">
+																					<h4>Refractive
+																						Nature
+																					</h4>
+																				</div>
+																				<div
+																					class="themestek-static-box-desc">
+																					Doctor
+																					Timetable Lorem
+																					ipsum dolor sit
+																					amet,
+																					consectetur
+																					adipisicing
+																					elit, sed do
+																					eiusmod tempor
+																					incididunt.
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div
+																		class="ts-box-col-wrapper col-lg-4 col-sm-6 col-md-4 col-xs-12 ">
+																		<div
+																			class="themestek-static-box-wrapper themestek-boxes-feature-plans ts-hover-style-2 themestek-box">
+																			<div
+																				class="themestek-static-box-image">
+																				<img class="ts_vc_single_image-img "
+																					src="wp-content/uploads/sites/2/2018/02/18-380x222.jpg"
+																					width="380"
+																					height="222"
+																					alt="18"
+																					title="18" />
+																			</div>
+																			<div
+																				class="themestek-static-box-content">
+																				<div
+																					class="themestek-box-title">
+																					<h4>Transitions
+																						Lenses
+																					</h4>
+																				</div>
+																				<div
+																					class="themestek-static-box-desc">
+																					Doctor
+																					Timetable Lorem
+																					ipsum dolor sit
+																					amet,
+																					consectetur
+																					adipisicing
+																					elit, sed do
+																					eiusmod tempor
+																					incididunt.
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div
+																		class="ts-box-col-wrapper col-lg-4 col-sm-6 col-md-4 col-xs-12 ">
+																		<div
+																			class="themestek-static-box-wrapper themestek-boxes-feature-plans ts-hover-style-2 themestek-box">
+																			<div
+																				class="themestek-static-box-image">
+																				<img class="ts_vc_single_image-img "
+																					src="wp-content/uploads/sites/2/2018/02/11-380x222.jpg"
+																					width="380"
+																					height="222"
+																					alt="11"
+																					title="11" />
+																			</div>
+																			<div
+																				class="themestek-static-box-content">
+																				<div
+																					class="themestek-box-title">
+																					<h4>Transplantation
+																					</h4>
+																				</div>
+																				<div
+																					class="themestek-static-box-desc">
+																					Doctor
+																					Timetable Lorem
+																					ipsum dolor sit
+																					amet,
+																					consectetur
+																					adipisicing
+																					elit, sed do
+																					eiusmod tempor
+																					incididunt.
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<!-- .row multi-columns-row themestek-boxes-row-wrapper -->
+															</div><!-- .themestek-boxes-inner -->
+														</div><!-- .themestek-boxes -->
+													</div>
+												</div>
+											</div>
+
+
+										</div>
+
+
+
+										<div data-vc-full-width="true" data-vc-full-width-init="false"
+											class="ts-row wpb_row vc_row-fluid vc_custom_1526731977250 ts-overlap-row ts-bgcolor-skincolor ts-bgimage-position-center_center">
+
+
+											<div class="vc_row container">
+
+												<div
+													class="ts-column wpb_column vc_column_container vc_col-sm-6">
+													<div class="vc_column-inner  ">
+														<div class="wpb_wrapper">
+
+															<div
+																class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1526210490693">
+
+																<figure class="wpb_wrapper vc_figure">
+																	<div
+																		class="vc_single_image-wrapper   vc_box_border_grey">
+																		<img width="683" height="678"
+																			src="wp-content/uploads/sites/2/2018/05/skill-e1526259995485.png"
+																			class="vc_single_image-img attachment-full"
+																			alt=""
+																			srcset="https://optico.themestek.com/demo1/wp-content/uploads/sites/2/2018/05/skill-e1526259995485.png 683w, https://optico.themestek.com/demo1/wp-content/uploads/sites/2/2018/05/skill-e1526259995485-150x150.png 150w, https://optico.themestek.com/demo1/wp-content/uploads/sites/2/2018/05/skill-e1526259995485-300x298.png 300w"
+																			sizes="(max-width: 683px) 100vw, 683px"
+																			data-id="4524" /></div>
+																</figure>
+															</div>
+														</div>
+													</div>
+												</div>
+
+
+												<div
+													class="ts-column wpb_column vc_column_container vc_col-sm-6">
+													<div
+														class="vc_column-inner vc_custom_1527069062415 ts-responsive-custom-78006773">
+														<div class="wpb_wrapper">
+															<div
+																class="ts-element-heading-wrapper ts-heading-inner ts-element-align-left ts-seperator-none ">
+																<section class="ts-vc_cta3-container">
+																	<div
+																		class="ts-vc_general ts-vc_cta3 ts-cta3-only ts-vc_cta3-style-classic ts-vc_cta3-shape-rounded ts-vc_cta3-align-left ts-vc_cta3-color-transparent ts-vc_cta3-icon-size-md ts-vc_cta3-actions-no ts-cta3-with-desc">
+																		<div
+																			class="ts-vc_cta3_content-container">
+																			<div
+																				class="ts-vc_cta3-content">
+																				<div
+																					class="ts-vc_cta3-content-header ts-wrap">
+																					<div
+																						class="ts-vc_cta3-headers ts-wrap-cell">
+																						<h4
+																							class="ts-custom-heading ">
+																							OUR
+																							EXPERTS
+																						</h4>
+																						<h2
+																							class="ts-custom-heading ">
+																							WE
+																							ARE
+																							SERVING
+																							<strong>
+																								EXPERT<br />
+																								EYE
+																								SPECIALISTS</strong>
+																						</h2>
+																					</div>
+																				</div>
+																				<div
+																					class="ts-cta3-content-wrapper">
+																					<p>Better
+																						vision for
+																						a great
+																						life 
+																						consectetur
+																						adipisicing
+																						elit, sed
+																						do eiusmod
+																						tempor
+																						incididunt.
+																					</p>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</section>
+															</div>
+															<!-- .ts-element-heading-wrapper container -->
+															<div
+																class="themestek-progress-bar vc_progress_bar wpb_content_element vc_progress-bar-color-white vc_progress-bar-color-white">
+																<div
+																	class="ts-pbar-single-bar-w ts-pbar-icon-false">
+																	<div
+																		class="vc_general vc_single_bar">
+																		<small
+																			class="vc_label">Refractive
+																			Surgery</small> <span
+																			class="ts-vc_label_units vc_label_units">90%</span><span
+																			class="vc_bar "
+																			data-percentage-value="90"
+																			data-value="90"></span>
+																	</div>
+																</div>
+																<div
+																	class="ts-pbar-single-bar-w ts-pbar-icon-false">
+																	<div
+																		class="vc_general vc_single_bar">
+																		<small
+																			class="vc_label">Cataract
+																			Surgery</small> <span
+																			class="ts-vc_label_units vc_label_units">80%</span><span
+																			class="vc_bar "
+																			data-percentage-value="80"
+																			data-value="80"></span>
+																	</div>
+																</div>
+																<div
+																	class="ts-pbar-single-bar-w ts-pbar-icon-false">
+																	<div
+																		class="vc_general vc_single_bar">
+																		<small
+																			class="vc_label">Glaucoma</small>
+																		<span
+																			class="ts-vc_label_units vc_label_units">70%</span><span
+																			class="vc_bar "
+																			data-percentage-value="70"
+																			data-value="70"></span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+
+
+											</div>
+										</div>
+
+										<div class="vc_row-full-width vc_clearfix"></div>
+
+										<div data-vc-full-width="true" data-vc-full-width-init="false"
+											class="ts-row wpb_row vc_row-fluid vc_custom_1529144306998 ts-responsive-custom-58469909 vc_row-has-fill ts-bgcolor-darkgrey ts-bgimage-position-center_center ts-bg ts-bgimage-yes">
+
+											<div class="ts-row-wrapper-bg-layer ts-bg-layer"></div>
+											<!-- ThemeStek custom DIV added -->
+
+											<div class="vc_row container">
+
+												<div
+													class="ts-column wpb_column vc_column_container vc_col-sm-12">
+													<div class="vc_column-inner  ">
+														<div class="wpb_wrapper">
+															<div
+																class="ts-vc_icon_element ts-vc_icon_element-outer ts-vc_icon_element-align-center  ts-vc_icon_element-have-style lightboxvid">
+																<div
+																	class="ts-vc_icon_element-inner  ts-vc_icon_element-have-style-inner ts-vc_icon_element-color-black ts-vc_icon_element-size-lg ts-vc_icon_element-style-rounded ts-vc_icon_element-background ts-vc_icon_element-background-color-white">
+																	<span
+																		class="ts-vc_icon_element-icon themifyicon ti-control-play"></span><a
+																		class="ts-vc_icon_element-link"
+																		href="https://youtu.be/kgwApX51CHE"
+																		title="" target="_self"></a>
+																</div>
+															</div>
+															<div
+																class="ts-element-heading-wrapper ts-heading-inner ts-element-align-center ts-seperator-none  ts-capitalize">
+																<section
+																	class="ts-vc_cta3-container ts-capitalize">
+																	<div
+																		class="ts-vc_general ts-vc_cta3 ts-cta3-only ts-vc_cta3-style-classic ts-vc_cta3-shape-rounded ts-vc_cta3-align-center ts-vc_cta3-color-transparent ts-vc_cta3-icon-size-md ts-vc_cta3-actions-no ts-cta3-without-desc">
+																		<div
+																			class="ts-vc_cta3_content-container">
+																			<div
+																				class="ts-vc_cta3-content">
+																				<div
+																					class="ts-vc_cta3-content-header ts-wrap">
+																					<div
+																						class="ts-vc_cta3-headers ts-wrap-cell">
+																						<h4 style="font-size:16px;line-height:26px;"
+																							class="ts-custom-heading ts-skincolor ">
+																							WHAT
+																							WE
+																							OFFER
+																						</h4>
+																						<h2 style="font-size:46px;line-height:56px;"
+																							class="ts-custom-heading ">
+																							WE
+																							OFFERS
+																							A
+																							COMPLETE
+																							<strong>RANGE<br />
+																								OF
+																								EYE
+																								CARE
+																								SERVICES</strong>
+																						</h2>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</section>
+															</div>
+															<!-- .ts-element-heading-wrapper container -->
+														</div>
+													</div>
+												</div>
+
+
+											</div>
+										</div>
+
+										<div class="vc_row-full-width vc_clearfix"></div>
+
+										<div data-vc-full-width="true" data-vc-full-width-init="false"
+											class="ts-row wpb_row vc_row-fluid vc_custom_1529144572402 ts-responsive-custom-22855088 vc_row-has-fill ts-bgcolor-grey ts-bgimage-position-center_center">
+
+
+											<div class="vc_row container">
+
+												<div
+													class="ts-column wpb_column vc_column_container vc_col-sm-12">
+													<div class="vc_column-inner  ">
+														<div class="wpb_wrapper">
+															<div
+																class="ts-element-heading-wrapper ts-heading-inner ts-element-align-center ts-seperator-none  ts-capitalize">
+																<section
+																	class="ts-vc_cta3-container ts-capitalize">
+																	<div
+																		class="ts-vc_general ts-vc_cta3 ts-cta3-only ts-vc_cta3-style-classic ts-vc_cta3-shape-rounded ts-vc_cta3-align-center ts-vc_cta3-color-transparent ts-vc_cta3-icon-size-md ts-vc_cta3-actions-no ts-cta3-without-desc">
+																		<div
+																			class="ts-vc_cta3_content-container">
+																			<div
+																				class="ts-vc_cta3-content">
+																				<div
+																					class="ts-vc_cta3-content-header ts-wrap">
+																					<div
+																						class="ts-vc_cta3-headers ts-wrap-cell">
+																						<h4
+																							class="ts-custom-heading ">
+																							WHO
+																							WE
+																							ARE
+																						</h4>
+																						<h2
+																							class="ts-custom-heading ">
+																							A
+																							GLOBAL
+																							LEADER
+																							IN
+																							<strong>THE<br />
+																								TREATMENT
+																								OF
+																								EYE
+																								DISEASE.</strong>
+																						</h2>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</section>
+															</div>
+															<!-- .ts-element-heading-wrapper container -->
+															<div
+																class="ts-row-inner vc_row wpb_row vc_inner vc_row-fluid text-center ts-two-colum-view vc_custom_1529126036676">
+
+																<div
+																	class="ts-column-inner wpb_column vc_column_container vc_col-sm-3">
+																	<div class="vc_column-inner  ">
+
+																		<div class="wpb_wrapper">
+
+																			<div
+																				class="ts-fid inside ts-fid-boxstyle-without-icon ts-fidbox-style-3">
+																				<div
+																					class="ts-fld-contents">
+																					<h3
+																						class="ts-fid-inner">
+																						<span data-appear-animation="animateDigits"
+																							data-from="0"
+																							data-to="168"
+																							data-interval="5">
+																							168
+																						</span>
+																					</h3>
+																					<h6
+																						class="ts-fid-title">
+																						<span>Year
+																							of
+																							Experiencs<br></span>
+																					</h6>
+																				</div>
+																				<!-- .ts-fld-contents -->
+																			</div>
+
+																		</div>
+																	</div>
+																</div>
+
+
+																<div
+																	class="ts-column-inner wpb_column vc_column_container vc_col-sm-3">
+																	<div class="vc_column-inner  ">
+
+																		<div class="wpb_wrapper">
+
+																			<div
+																				class="ts-fid inside ts-fid-boxstyle-without-icon ts-fidbox-style-3">
+																				<div
+																					class="ts-fld-contents">
+																					<h3
+																						class="ts-fid-inner">
+																						<span data-appear-animation="animateDigits"
+																							data-from="0"
+																							data-to="128"
+																							data-interval="5">
+																							128
+																						</span>
+																					</h3>
+																					<h6
+																						class="ts-fid-title">
+																						<span>Awad
+																							by
+																							GOV<br></span>
+																					</h6>
+																				</div>
+																				<!-- .ts-fld-contents -->
+																			</div>
+
+																		</div>
+																	</div>
+																</div>
+
+
+																<div
+																	class="ts-column-inner wpb_column vc_column_container vc_col-sm-3">
+																	<div class="vc_column-inner  ">
+
+																		<div class="wpb_wrapper">
+
+																			<div
+																				class="ts-fid inside ts-fid-boxstyle-without-icon ts-fidbox-style-3">
+																				<div
+																					class="ts-fld-contents">
+																					<h3
+																						class="ts-fid-inner">
+																						<span data-appear-animation="animateDigits"
+																							data-from="0"
+																							data-to="147"
+																							data-interval="5">
+																							147
+																						</span>
+																					</h3>
+																					<h6
+																						class="ts-fid-title">
+																						<span>Diffrent
+																							Services<br></span>
+																					</h6>
+																				</div>
+																				<!-- .ts-fld-contents -->
+																			</div>
+
+																		</div>
+																	</div>
+																</div>
+
+
+																<div
+																	class="ts-column-inner wpb_column vc_column_container vc_col-sm-3">
+																	<div class="vc_column-inner  ">
+
+																		<div class="wpb_wrapper">
+
+																			<div
+																				class="ts-fid inside ts-fid-boxstyle-without-icon ts-fidbox-style-3">
+																				<div
+																					class="ts-fld-contents">
+																					<h3
+																						class="ts-fid-inner">
+																						<span data-appear-animation="animateDigits"
+																							data-from="0"
+																							data-to="250"
+																							data-interval="5">
+																							250
+																						</span>
+																					</h3>
+																					<h6
+																						class="ts-fid-title">
+																						<span>In-House
+																							Doctors<br></span>
+																					</h6>
+																				</div>
+																				<!-- .ts-fld-contents -->
+																			</div>
+
+																		</div>
+																	</div>
+																</div>
+
+															</div>
+
+														</div>
+													</div>
+												</div>
+
+
+											</div>
+										</div>
+
+										<div class="vc_row-full-width vc_clearfix"></div>
+
+										<div
+											class="ts-row wpb_row vc_row-fluid box-shadow-1 vc_custom_1529144475425 ts-responsive-custom-42302505 vc_row-has-fill ts-overlap-row vc_row container ts-bgcolor-skincolor ts-bgimage-position-center_center">
+
+
+
+
+											<div
+												class="ts-column wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-12">
+												<div class="vc_column-inner vc_custom_1529143911986 ">
+													<div class="wpb_wrapper">
+
+														<div
+															class="wpb_text_column wpb_content_element  vc_custom_1525956665080">
+															<div class="wpb_wrapper">
+																<div id="twenty20-2" class="twenty20"
+																	style="width: 100% !important; clear: both;">
+																	<div
+																		class="twentytwenty-container twenty20-2 ">
+																		<img
+																			src="wp-content/uploads/sites/2/2018/05/1.jpg" /><img
+																			src="wp-content/uploads/sites/2/2018/05/2.jpg" />
+																	</div>
+																	<script>jQuery(window).load(function () { jQuery(".twentytwenty-container.twenty20-2[data-orientation!='vertical']").twentytwenty({ default_offset_pct: 0.5 }); jQuery(".twenty20-2 .twentytwenty-overlay").hide(); jQuery(".twenty20-2 .twentytwenty-overlay").hide(); });</script>
+																</div>
+
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div
+												class="ts-column wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-12">
+												<div class="vc_column-inner vc_custom_1529143926991 ">
+													<div class="wpb_wrapper">
+														<div
+															class="ts-element-heading-wrapper ts-heading-inner ts-element-align-left ts-seperator-none  vc_custom_1527593835476 ts-capitalize">
+															<section
+																class="ts-vc_cta3-container ts-capitalize">
+																<div
+																	class="ts-vc_general ts-vc_cta3 ts-cta3-only ts-vc_cta3-style-classic ts-vc_cta3-shape-rounded ts-vc_cta3-align-left ts-vc_cta3-color-transparent ts-vc_cta3-icon-size-md ts-vc_cta3-actions-no ts-cta3-with-desc">
+																	<div
+																		class="ts-vc_cta3_content-container">
+																		<div
+																			class="ts-vc_cta3-content">
+																			<div
+																				class="ts-vc_cta3-content-header ts-wrap">
+																				<div
+																					class="ts-vc_cta3-headers ts-wrap-cell">
+																					<h4
+																						class="ts-custom-heading ">
+																						OUR WORK
+																					</h4>
+																					<h2
+																						class="ts-custom-heading ">
+																						OUR
+																						PATIENT
+																						<strong>BEFORE
+																							AFTER
+																							GALLERY</strong>
+																					</h2>
+																				</div>
+																			</div>
+																			<div
+																				class="ts-cta3-content-wrapper">
+																				<p>We offer the
+																					entire range of
+																					eye treatments
+																					do eiusmod
+																					tempor
+																					incididunt ut
+																					labore</p>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</section>
+														</div>
+														<!-- .ts-element-heading-wrapper container -->
+														<div
+															class="ts-row-inner vc_row wpb_row vc_inner vc_row-fluid ts-col-auto">
+
+															<div
+																class="ts-column-inner wpb_column vc_column_container vc_col-sm-6">
+																<div class="vc_column-inner  ">
+
+																	<div class="wpb_wrapper">
+																		<ul
+																			class="ts-list ts-list-style-icon ts-list-icon-color-white ts-white ts-icon-white ts-list-textsize- ts-list-icon-library-fontawesome">
+																			<li><i
+																					class="ts-white fa fa-arrow-circle-o-right"></i>
+																				<span
+																					class="ts-list-li-content">LASEK
+																					VISION
+																					CORRECTION</span>
+																			</li>
+																			<li><i
+																					class="ts-white fa fa-arrow-circle-o-right"></i>
+																				<span
+																					class="ts-list-li-content">DROOPING
+																					UPPER
+																					EYELIDS</span>
+																			</li>
+																			<li><i
+																					class="ts-white fa fa-arrow-circle-o-right"></i>
+																				<span
+																					class="ts-list-li-content">EYE
+																					WHITENING
+																					TREATMENT</span>
+																			</li>
+																		</ul>
+																	</div>
+																</div>
+															</div>
+
+
+															<div
+																class="ts-column-inner wpb_column vc_column_container vc_col-sm-6">
+																<div class="vc_column-inner  ">
+
+																	<div class="wpb_wrapper">
+																		<ul
+																			class="ts-list ts-list-style-icon ts-list-icon-color-white ts-white ts-icon-white ts-list-textsize- ts-list-icon-library-fontawesome">
+																			<li><i
+																					class="ts-white fa fa-arrow-circle-o-right"></i>
+																				<span
+																					class="ts-list-li-content">EYE
+																					BAG
+																					REMOVAL</span>
+																			</li>
+																			<li><i
+																					class="ts-white fa fa-arrow-circle-o-right"></i>
+																				<span
+																					class="ts-list-li-content">WHITENING
+																					BOTH
+																					EYES</span>
+																			</li>
+																			<li><i
+																					class="ts-white fa fa-arrow-circle-o-right"></i>
+																				<span
+																					class="ts-list-li-content">UPPER
+																					EYELIDS
+																					SURGERY</span>
+																			</li>
+																		</ul>
+																	</div>
+																</div>
+															</div>
+
+														</div>
+
+
+														<div
+															class="ts-vc_btn3-container ts-vc_btn3-inline vc_custom_1527594033124">
+															<a class="ts-vc_general ts-vc_btn3 ts-vc_btn3-size-md ts-vc_btn3-shape-rounded ts-vc_btn3-style-outline ts-vc_btn3-weight-yes ts-vc_btn3-color-white"
+																href="https://optico.themestek.com/before-after/"
+																title="">View Gallery</a></div>
+													</div>
+												</div>
+											</div>
+
+
+										</div>
+
+
+
+										<div
+											class="ts-row wpb_row vc_row-fluid vc_custom_1529144937185 ts-responsive-custom-63602843 vc_row-has-fill vc_row container ts-bgimage-position-center_center">
+
+
+
+
+											<div
+												class="ts-column wpb_column vc_column_container vc_col-sm-12">
+												<div class="vc_column-inner  ">
+													<div class="wpb_wrapper">
+														<div class="themestek-boxes themestek-boxes-testimonial themestek-boxes-view-carousel themestek-boxes-col-two themestek-boxes-sortable-no themestek-boxes-textalign-center themestek-boxes-sortablebutton- ts-boxes-carousel-arrows-below ts-boxes-txtalign-center ts-capitalize"
+															data-ts-speed="1500" data-ts-autoplay="1"
+															data-ts-autoplayspeed="4500" data-ts-loop="1"
+															data-ts-dots="0" data-ts-nav="below"
+															data-ts-centermode="0"
+															data-ts-pauseonfocus="1"
+															data-ts-pauseonhover="1"
+															data-ts-slidestoscroll="column"
+															data-ts-effecttype="slide">
+															<div
+																class="themestek-boxes-inner themestek-boxes-testimonial-inner ">
+																<div
+																	class="themestek-box-heading-wrapper ts-element-align-center">
+																	<div
+																		class="ts-element-heading-wrapper ts-heading-inner ts-element-align-center ts-seperator-none ">
+																		<section
+																			class="ts-vc_cta3-container">
+																			<div
+																				class="ts-vc_general ts-vc_cta3 ts-cta3-only ts-vc_cta3-style-classic ts-vc_cta3-shape-rounded ts-vc_cta3-align-center ts-vc_cta3-color-transparent ts-vc_cta3-icon-size-md ts-vc_cta3-actions-no ts-cta3-without-desc">
+																				<div
+																					class="ts-vc_cta3_content-container">
+																					<div
+																						class="ts-vc_cta3-content">
+																						<div
+																							class="ts-vc_cta3-content-header ts-wrap">
+																							<div
+																								class="ts-vc_cta3-headers ts-wrap-cell">
+																								<h4
+																									class="ts-custom-heading ">
+																									PATIENT
+																									TESTIMONIALS
+																								</h4>
+																								<h2
+																									class="ts-custom-heading ">
+																									READ
+																									WHAT
+																									SAYS<br />
+																									<strong>OUR
+																										HAPPY
+																										PATIENTS</strong>
+																								</h2>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</section>
+																	</div>
+																	<!-- .ts-element-heading-wrapper container -->
+																</div>
+																<!-- .ts-element-heading-wrapper container -->
+
+																<div
+																	class="row multi-columns-row themestek-boxes-row-wrapper">
+																	<div
+																		class="ts-box-col-wrapper col-lg-6 col-sm-6 col-md-6 col-xs-12 company others">
+																		<article
+																			class="themestek-box themestek-box-testimonial ts-testimonialbox-style-3">
+																			<div
+																				class="themestek-post-item">
+																				<div
+																					class="themestek-box-content">
+																					<div
+																						class="themestek-box-desc">
+																						<blockquote
+																							class="themestek-testimonial-text">
+																							Long
+																							established
+																							fact
+																							that
+																							a
+																							reader
+																							will
+																							be
+																							distracted
+																							by
+																							the
+																							readable
+																							content
+																							of a
+																							page
+																							when
+																							looking
+																							at
+																							it's
+																							layout.
+																							The
+																							point
+																							of
+																							using
+																							Lorem
+																							Ipsum
+																						</blockquote>
+																					</div>
+																					<div
+																						class="clearfix">
+																					</div>
+																					<div
+																						class="themestek-box-img">
+																						<span
+																							class="themestek-item-thumbnail">
+																							<span
+																								class="themestek-item-thumbnail-inner">
+																								<img width="150"
+																									height="150"
+																									src="wp-content/uploads/sites/2/2018/03/img-03-150x150.jpg"
+																									class="attachment-thumbnail size-thumbnail wp-post-image"
+																									alt=""
+																									data-id="3760" />
+																							</span>
+																						</span>
+																					</div>
+																					<div
+																						class="themestek-box-author">
+																						<div
+																							class="themestek-box-title">
+																							<h3
+																								class="themestek-author-name">
+																								Victoria
+																								Porter
+																							</h3>
+																							<span
+																								class="themestek-box-footer">CEO
+																								at
+																								Google
+																								INC</span>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</article>
+																	</div>
+																	<div
+																		class="ts-box-col-wrapper col-lg-6 col-sm-6 col-md-6 col-xs-12 general others">
+																		<article
+																			class="themestek-box themestek-box-testimonial ts-testimonialbox-style-3">
+																			<div
+																				class="themestek-post-item">
+																				<div
+																					class="themestek-box-content">
+																					<div
+																						class="themestek-box-desc">
+																						<blockquote
+																							class="themestek-testimonial-text">
+																							Long
+																							established
+																							fact
+																							that
+																							a
+																							reader
+																							will
+																							be
+																							distracted
+																							by
+																							the
+																							readable
+																							content
+																							of a
+																							page
+																							when
+																							looking
+																							at
+																							it's
+																							layout.
+																							The
+																							point
+																							of
+																							using
+																							Lorem
+																							Ipsum
+																						</blockquote>
+																					</div>
+																					<div
+																						class="clearfix">
+																					</div>
+																					<div
+																						class="themestek-box-img">
+																						<span
+																							class="themestek-item-thumbnail">
+																							<span
+																								class="themestek-item-thumbnail-inner">
+																								<img width="150"
+																									height="150"
+																									src="wp-content/uploads/sites/2/2018/05/ts-after-image2-150x150.jpg"
+																									class="attachment-thumbnail size-thumbnail wp-post-image"
+																									alt=""
+																									srcset="https://optico.themestek.com/demo1/wp-content/uploads/sites/2/2018/05/ts-after-image2-150x150.jpg 150w, https://optico.themestek.com/demo1/wp-content/uploads/sites/2/2018/05/ts-after-image2-800x800.jpg 800w"
+																									sizes="(max-width: 150px) 100vw, 150px"
+																									data-id="4390" />
+																							</span>
+																						</span>
+																					</div>
+																					<div
+																						class="themestek-box-author">
+																						<div
+																							class="themestek-box-title">
+																							<h3
+																								class="themestek-author-name">
+																								<a href="#"
+																									target="_blank">Maria
+																									Flynn</a>
+																							</h3>
+																							<span
+																								class="themestek-box-footer">CEO
+																								at
+																								Google
+																								INC</span>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</article>
+																	</div>
+																	<div
+																		class="ts-box-col-wrapper col-lg-6 col-sm-6 col-md-6 col-xs-12 company general others">
+																		<article
+																			class="themestek-box themestek-box-testimonial ts-testimonialbox-style-3">
+																			<div
+																				class="themestek-post-item">
+																				<div
+																					class="themestek-box-content">
+																					<div
+																						class="themestek-box-desc">
+																						<blockquote
+																							class="themestek-testimonial-text">
+																							Long
+																							established
+																							fact
+																							that
+																							a
+																							reader
+																							will
+																							be
+																							distracted
+																							by
+																							the
+																							readable
+																							content
+																							of a
+																							page
+																							when
+																							looking
+																							at
+																							it's
+																							layout.
+																							The
+																							point
+																							of
+																							using
+																							Lorem
+																							Ipsum
+																						</blockquote>
+																					</div>
+																					<div
+																						class="clearfix">
+																					</div>
+																					<div
+																						class="themestek-box-img">
+																						<span
+																							class="themestek-item-thumbnail">
+																							<span
+																								class="themestek-item-thumbnail-inner">
+																								<img width="150"
+																									height="150"
+																									src="wp-content/uploads/sites/2/2018/05/ts-after-image3-150x150.jpg"
+																									class="attachment-thumbnail size-thumbnail wp-post-image"
+																									alt=""
+																									srcset="https://optico.themestek.com/demo1/wp-content/uploads/sites/2/2018/05/ts-after-image3-150x150.jpg 150w, https://optico.themestek.com/demo1/wp-content/uploads/sites/2/2018/05/ts-after-image3-800x800.jpg 800w"
+																									sizes="(max-width: 150px) 100vw, 150px"
+																									data-id="4393" />
+																							</span>
+																						</span>
+																					</div>
+																					<div
+																						class="themestek-box-author">
+																						<div
+																							class="themestek-box-title">
+																							<h3
+																								class="themestek-author-name">
+																								<a href="#"
+																									target="_blank">Gina
+																									Kennedy</a>
+																							</h3>
+																							<span
+																								class="themestek-box-footer">CEO
+																								at
+																								Google
+																								INC</span>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</article>
+																	</div>
+																</div>
+															</div><!-- .themestek-boxes-inner -->
+														</div><!-- .themestek-boxes -->
+													</div>
+												</div>
+											</div>
+
+
+										</div>
+
+
+
+										<div
+											class="ts-row wpb_row vc_row-fluid vc_custom_1525000053073 vc_row-has-fill vc_row container ts-bgimage-position-center_center">
+
+
+
+
+											<div
+												class="ts-column wpb_column vc_column_container vc_col-sm-12">
+												<div class="vc_column-inner  ">
+													<div class="wpb_wrapper">
+														<div
+															class="themestek-boxes themestek-boxes-client themestek-boxes-view-default themestek-boxes-col-six themestek-boxes-sortable-no themestek-boxes-textalign-center themestek-boxes-sortablebutton-">
+															<div
+																class="themestek-boxes-inner themestek-boxes-client-inner ">
+
+																<div
+																	class="row multi-columns-row themestek-boxes-row-wrapper">
+																	<div
+																		class="ts-box-col-wrapper col-lg-2 col-sm-4 col-md-4 col-xs-12 ">
+																		<div
+																			class="ts-client-logo-box-w">
+																			<div class="ts-client-logo-tooltip"
+																				data-tooltip="PLAIN VIEW">
+																				<div
+																					class="themestek-box themestek-box-client ts-clientbox-style-1 themestek-box-view-style1 themestek-client-box-view-style1 ">
+
+																					<span
+																						class="themestek-item-thumbnail">
+																						<span
+																							class="themestek-item-thumbnail-inner">
+																							<img width="180"
+																								height="46"
+																								src="wp-content/uploads/sites/2/2018/04/client-6.png"
+																								class="attachment-full size-full wp-post-image"
+																								alt="" />
+																						</span>
+																					</span> </div>
+																			</div>
+																		</div>
+																		<!-- .ts-client-logo-box-w -->
+																	</div>
+																	<div
+																		class="ts-box-col-wrapper col-lg-2 col-sm-4 col-md-4 col-xs-12 ">
+																		<div
+																			class="ts-client-logo-box-w">
+																			<div class="ts-client-logo-tooltip"
+																				data-tooltip="MARCO REA">
+																				<div
+																					class="themestek-box themestek-box-client ts-clientbox-style-1 themestek-box-view-style1 themestek-client-box-view-style1 ">
+
+																					<span
+																						class="themestek-item-thumbnail">
+																						<span
+																							class="themestek-item-thumbnail-inner">
+																							<img width="180"
+																								height="46"
+																								src="wp-content/uploads/sites/2/2018/04/client-5.png"
+																								class="attachment-full size-full wp-post-image"
+																								alt="" />
+																						</span>
+																					</span> </div>
+																			</div>
+																		</div>
+																		<!-- .ts-client-logo-box-w -->
+																	</div>
+																	<div
+																		class="ts-box-col-wrapper col-lg-2 col-sm-4 col-md-4 col-xs-12 ">
+																		<div
+																			class="ts-client-logo-box-w">
+																			<div class="ts-client-logo-tooltip"
+																				data-tooltip="STALION">
+																				<div
+																					class="themestek-box themestek-box-client ts-clientbox-style-1 themestek-box-view-style1 themestek-client-box-view-style1 ">
+
+																					<span
+																						class="themestek-item-thumbnail">
+																						<span
+																							class="themestek-item-thumbnail-inner">
+																							<img width="180"
+																								height="46"
+																								src="wp-content/uploads/sites/2/2018/04/client-4.png"
+																								class="attachment-full size-full wp-post-image"
+																								alt="" />
+																						</span>
+																					</span> </div>
+																			</div>
+																		</div>
+																		<!-- .ts-client-logo-box-w -->
+																	</div>
+																	<div
+																		class="ts-box-col-wrapper col-lg-2 col-sm-4 col-md-4 col-xs-12 ">
+																		<div
+																			class="ts-client-logo-box-w">
+																			<div class="ts-client-logo-tooltip"
+																				data-tooltip="Villatex">
+																				<div
+																					class="themestek-box themestek-box-client ts-clientbox-style-1 themestek-box-view-style1 themestek-client-box-view-style1 ">
+
+																					<span
+																						class="themestek-item-thumbnail">
+																						<span
+																							class="themestek-item-thumbnail-inner">
+																							<img width="180"
+																								height="46"
+																								src="wp-content/uploads/sites/2/2018/04/client-3.png"
+																								class="attachment-full size-full wp-post-image"
+																								alt="" />
+																						</span>
+																					</span> </div>
+																			</div>
+																		</div>
+																		<!-- .ts-client-logo-box-w -->
+																	</div>
+																	<div
+																		class="ts-box-col-wrapper col-lg-2 col-sm-4 col-md-4 col-xs-12 ">
+																		<div
+																			class="ts-client-logo-box-w">
+																			<div class="ts-client-logo-tooltip"
+																				data-tooltip="Cronit Pharmacy">
+																				<div
+																					class="themestek-box themestek-box-client ts-clientbox-style-1 themestek-box-view-style1 themestek-client-box-view-style1 ">
+
+																					<span
+																						class="themestek-item-thumbnail">
+																						<span
+																							class="themestek-item-thumbnail-inner">
+																							<img width="180"
+																								height="46"
+																								src="wp-content/uploads/sites/2/2018/04/client-2.png"
+																								class="attachment-full size-full wp-post-image"
+																								alt="" />
+																						</span>
+																					</span> </div>
+																			</div>
+																		</div>
+																		<!-- .ts-client-logo-box-w -->
+																	</div>
+																	<div
+																		class="ts-box-col-wrapper col-lg-2 col-sm-4 col-md-4 col-xs-12 ">
+																		<div
+																			class="ts-client-logo-box-w">
+																			<div class="ts-client-logo-tooltip"
+																				data-tooltip="MED NET">
+																				<div
+																					class="themestek-box themestek-box-client ts-clientbox-style-1 themestek-box-view-style1 themestek-client-box-view-style1 ">
+
+																					<span
+																						class="themestek-item-thumbnail">
+																						<span
+																							class="themestek-item-thumbnail-inner">
+																							<img width="180"
+																								height="46"
+																								src="wp-content/uploads/sites/2/2018/04/client-1.png"
+																								class="attachment-full size-full wp-post-image"
+																								alt="" />
+																						</span>
+																					</span> </div>
+																			</div>
+																		</div>
+																		<!-- .ts-client-logo-box-w -->
+																	</div>
+																</div>
+															</div><!-- .themestek-boxes-inner -->
+														</div><!-- .themestek-boxes -->
+													</div>
+												</div>
+											</div>
+
+
+										</div>
+
+
+
+										<div data-vc-full-width="true" data-vc-full-width-init="false"
+											data-vc-stretch-content="true"
+											class="ts-row wpb_row vc_row-fluid vc_custom_1524991462706 vc_row-has-fill ts-bgimage-position-center_center">
+
+
+											<div class="vc_row vc_row-no-padding">
+
+												<div
+													class="ts-column wpb_column vc_column_container vc_col-sm-12">
+													<div class="vc_column-inner  ">
+														<div class="wpb_wrapper">
+															<div
+																class="themestek-boxes themestek-boxes-portfolio themestek-boxes-view-default themestek-boxes-col-five themestek-boxes-sortable-no themestek-boxes-textalign-center themestek-boxes-sortablebutton- themestek-boxes-spacing-0px">
+																<div
+																	class="themestek-boxes-inner themestek-boxes-portfolio-inner ">
+
+																	<div
+																		class="row multi-columns-row themestek-boxes-row-wrapper">
+																		<div
+																			class="ts-box-col-wrapper col-lg-20percent col-sm-4 col-md-4 col-xs-12 glaucoma-surgery">
+																			<article
+																				class="themestek-box themestek-box-portfolio ts-portfoliobox-style-2 themestek-box-view-overlay ts-hover-style-3 ">
+																				<div
+																					class="themestek-post-item">
+
+																					<span
+																						class="themestek-item-thumbnail">
+																						<span
+																							class="themestek-item-thumbnail-inner">
+																							<img width="800"
+																								height="715"
+																								src="wp-content/uploads/sites/2/2018/02/11-800x715.jpg"
+																								class="attachment-themestek-img-800x715 size-themestek-img-800x715 wp-post-image"
+																								alt=""
+																								data-id="3866" />
+																						</span>
+																					</span>
+																					<div
+																						class="themestek-box-content themestek-overlay">
+																						<div
+																							class="themestek-box-content-inner">
+																							<div
+																								class="themestek-pf-box-title">
+																								<h3><a
+																										href="optometrist-service/paeditaric-ophthalmology/index.html">Paeditaric
+																										Ophthalmology</a>
+																								</h3>
+																								<div
+																									class="themestek-box-category">
+																									<a href="optometrist-service-category/glaucoma-surgery/index.html"
+																										rel="tag">Glaucoma
+																										Surgery</a>
+																								</div>
+																							</div>
+																							<div
+																								class="themestek-icon-box themestek-media-link">
+																								<a class="ts_prettyphoto"
+																									title="Paeditaric Ophthalmology"
+																									href="wp-content/uploads/sites/2/2018/02/11.jpg"><i
+																										class="demo-icon ts-optico-icon-resize-full"></i></a>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																		<div
+																			class="ts-box-col-wrapper col-lg-20percent col-sm-4 col-md-4 col-xs-12 eye-treatment laser-eye-surgery">
+																			<article
+																				class="themestek-box themestek-box-portfolio ts-portfoliobox-style-2 themestek-box-view-overlay ts-hover-style-3 ">
+																				<div
+																					class="themestek-post-item">
+
+																					<span
+																						class="themestek-item-thumbnail">
+																						<span
+																							class="themestek-item-thumbnail-inner">
+																							<img width="800"
+																								height="715"
+																								src="wp-content/uploads/sites/2/2018/02/06-800x715.jpg"
+																								class="attachment-themestek-img-800x715 size-themestek-img-800x715 wp-post-image"
+																								alt=""
+																								data-id="3861" />
+																						</span>
+																					</span>
+																					<div
+																						class="themestek-box-content themestek-overlay">
+																						<div
+																							class="themestek-box-content-inner">
+																							<div
+																								class="themestek-pf-box-title">
+																								<h3><a
+																										href="optometrist-service/surgical-procedures/index.html">Surgical
+																										Procedures</a>
+																								</h3>
+																								<div
+																									class="themestek-box-category">
+																									<a href="optometrist-service-category/eye-treatment/index.html"
+																										rel="tag">Eye
+																										Treatment</a>,
+																									<a href="optometrist-service-category/laser-eye-surgery/index.html"
+																										rel="tag">Laser
+																										Eye
+																										Surgery</a>
+																								</div>
+																							</div>
+																							<div
+																								class="themestek-icon-box themestek-media-link">
+																								<a class="ts_prettyphoto"
+																									title="Surgical Procedures"
+																									href="wp-content/uploads/sites/2/2018/02/06.jpg"><i
+																										class="demo-icon ts-optico-icon-resize-full"></i></a>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																		<div
+																			class="ts-box-col-wrapper col-lg-20percent col-sm-4 col-md-4 col-xs-12 vitreo-retinal-surgery">
+																			<article
+																				class="themestek-box themestek-box-portfolio ts-portfoliobox-style-2 themestek-box-view-overlay ts-hover-style-3 ">
+																				<div
+																					class="themestek-post-item">
+
+																					<span
+																						class="themestek-item-thumbnail">
+																						<span
+																							class="themestek-item-thumbnail-inner">
+																							<img width="800"
+																								height="715"
+																								src="wp-content/uploads/sites/2/2018/02/08-800x715.jpg"
+																								class="attachment-themestek-img-800x715 size-themestek-img-800x715 wp-post-image"
+																								alt=""
+																								data-id="3863" />
+																						</span>
+																					</span>
+																					<div
+																						class="themestek-box-content themestek-overlay">
+																						<div
+																							class="themestek-box-content-inner">
+																							<div
+																								class="themestek-pf-box-title">
+																								<h3><a
+																										href="optometrist-service/transitions-lenses/index.html">Transitions
+																										Lenses</a>
+																								</h3>
+																								<div
+																									class="themestek-box-category">
+																									<a href="optometrist-service-category/vitreo-retinal-surgery/index.html"
+																										rel="tag">Vitreo
+																										Retinal
+																										Surgery</a>
+																								</div>
+																							</div>
+																							<div
+																								class="themestek-icon-box themestek-media-link">
+																								<a class="ts_prettyphoto"
+																									title="Transitions Lenses"
+																									href="wp-content/uploads/sites/2/2018/02/08.jpg"><i
+																										class="demo-icon ts-optico-icon-resize-full"></i></a>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																		<div
+																			class="ts-box-col-wrapper col-lg-20percent col-sm-4 col-md-4 col-xs-12 cataract-surgery">
+																			<article
+																				class="themestek-box themestek-box-portfolio ts-portfoliobox-style-2 themestek-box-view-overlay ts-hover-style-3 ">
+																				<div
+																					class="themestek-post-item">
+
+																					<span
+																						class="themestek-item-thumbnail">
+																						<span
+																							class="themestek-item-thumbnail-inner">
+																							<img width="800"
+																								height="715"
+																								src="wp-content/uploads/sites/2/2018/02/17-800x715.jpg"
+																								class="attachment-themestek-img-800x715 size-themestek-img-800x715 wp-post-image"
+																								alt=""
+																								data-id="3872" />
+																						</span>
+																					</span>
+																					<div
+																						class="themestek-box-content themestek-overlay">
+																						<div
+																							class="themestek-box-content-inner">
+																							<div
+																								class="themestek-pf-box-title">
+																								<h3><a
+																										href="optometrist-service/refractive-nature/index.html">Refractive
+																										Nature</a>
+																								</h3>
+																								<div
+																									class="themestek-box-category">
+																									<a href="optometrist-service-category/cataract-surgery/index.html"
+																										rel="tag">Cataract
+																										Surgery</a>
+																								</div>
+																							</div>
+																							<div
+																								class="themestek-icon-box themestek-media-link">
+																								<a class="ts_prettyphoto"
+																									title="Refractive Nature"
+																									href="wp-content/uploads/sites/2/2018/02/17.jpg"><i
+																										class="demo-icon ts-optico-icon-resize-full"></i></a>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																		<div
+																			class="ts-box-col-wrapper col-lg-20percent col-sm-4 col-md-4 col-xs-12 cataract-surgery">
+																			<article
+																				class="themestek-box themestek-box-portfolio ts-portfoliobox-style-2 themestek-box-view-overlay ts-hover-style-3 ">
+																				<div
+																					class="themestek-post-item">
+
+																					<span
+																						class="themestek-item-thumbnail">
+																						<span
+																							class="themestek-item-thumbnail-inner">
+																							<img width="800"
+																								height="715"
+																								src="wp-content/uploads/sites/2/2018/02/15-800x715.jpg"
+																								class="attachment-themestek-img-800x715 size-themestek-img-800x715 wp-post-image"
+																								alt=""
+																								data-id="3870" />
+																						</span>
+																					</span>
+																					<div
+																						class="themestek-box-content themestek-overlay">
+																						<div
+																							class="themestek-box-content-inner">
+																							<div
+																								class="themestek-pf-box-title">
+																								<h3><a
+																										href="optometrist-service/letterpress-asymmetrical-2/index.html">Letterpress
+																										Asymmetrical</a>
+																								</h3>
+																								<div
+																									class="themestek-box-category">
+																									<a href="optometrist-service-category/cataract-surgery/index.html"
+																										rel="tag">Cataract
+																										Surgery</a>
+																								</div>
+																							</div>
+																							<div
+																								class="themestek-icon-box themestek-media-link">
+																								<a class="ts_prettyphoto"
+																									title="Letterpress Asymmetrical"
+																									href="wp-content/uploads/sites/2/2018/02/15.jpg"><i
+																										class="demo-icon ts-optico-icon-resize-full"></i></a>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																	</div>
+																</div><!-- .themestek-boxes-inner -->
+															</div><!-- .themestek-boxes -->
+														</div>
+													</div>
+												</div>
+
+
+											</div>
+										</div>
+
+										<div class="vc_row-full-width vc_clearfix"></div>
+
+										<div data-vc-full-width="true" data-vc-full-width-init="false"
+											class="ts-row wpb_row vc_row-fluid vc_custom_1528690071195 vc_row-has-fill ts-bgcolor-skincolor ts-bgimage-position-center_center">
+
+
+											<div class="vc_row container">
+
+												<div
+													class="ts-column wpb_column vc_column_container vc_col-sm-12">
+													<div class="vc_column-inner  ">
+														<div class="wpb_wrapper">
+															<div
+																class="ts-element-heading-wrapper ts-heading-inner ts-element-align-center ts-seperator-none  ts-capitalize">
+																<section
+																	class="ts-vc_cta3-container ts-capitalize">
+																	<div
+																		class="ts-vc_general ts-vc_cta3 ts-cta3-only ts-vc_cta3-style-classic ts-vc_cta3-shape-rounded ts-vc_cta3-align-center ts-vc_cta3-color-transparent ts-vc_cta3-icon-size-md ts-vc_cta3-actions-no ts-cta3-with-desc">
+																		<div
+																			class="ts-vc_cta3_content-container">
+																			<div
+																				class="ts-vc_cta3-content">
+																				<div
+																					class="ts-vc_cta3-content-header ts-wrap">
+																					<div
+																						class="ts-vc_cta3-headers ts-wrap-cell">
+																						<h4
+																							class="ts-custom-heading ">
+																							OUR
+																							PRICING
+																						</h4>
+																						<h2
+																							class="ts-custom-heading ">
+																							YOUR
+																							HEALTH
+																							IS
+																							MOST<br />
+																							<strong>IMPORTANT
+																								WITH
+																								GREAT
+																								PRICES</strong>
+																						</h2>
+																					</div>
+																				</div>
+																				<div
+																					class="ts-cta3-content-wrapper">
+																					<p>Clear Eye
+																						care
+																						services
+																						to
+																						everyone
+																						with
+																						adipisicing
+																						elit, sed
+																						do eiusmod
+																						tempor
+																						incididunt
+																						ut labore
+																						et Lorem
+																						ipsum
+																						dolor sit
+																						amet,
+																						consectetur
+																						adipisicing
+																						elit, sed
+																						do eiusmod
+																						tempor
+																						incididunt
+																						ut labore
+																						et</p>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</section>
+															</div>
+															<!-- .ts-element-heading-wrapper container -->
+														</div>
+													</div>
+												</div>
+
+
+											</div>
+										</div>
+
+										<div class="vc_row-full-width vc_clearfix"></div>
+
+										<div data-vc-full-width="true" data-vc-full-width-init="false"
+											class="ts-row wpb_row vc_row-fluid vc_custom_1526293402560 vc_row-has-fill ts-overlap-row ts-bgcolor-grey ts-bgimage-position-center_center">
+
+
+											<div class="vc_row container">
+
+												<div
+													class="ts-column wpb_column vc_column_container vc_col-sm-12">
+													<div class="vc_column-inner  ">
+														<div class="wpb_wrapper">
+
+															<div
+																class="ts-row-inner vc_row wpb_row vc_inner vc_row-fluid ts-discount-box vc_custom_1526295015454 vc_row-o-equal-height vc_row-flex">
+
+																<div
+																	class="ts-column-inner wpb_column vc_column_container vc_col-sm-4">
+																	<div class="vc_column-inner  ">
+
+																		<div class="wpb_wrapper">
+																			<div
+																				class="ts-vc_icon_element ts-vc_icon_element-outer ts-vc_icon_element-align-center  ts-vc_icon_element-have-style vc_custom_1526946242584">
+																				<div
+																					class="ts-vc_icon_element-inner  ts-vc_icon_element-have-style-inner ts-vc_icon_element-color-white ts-vc_icon_element-size-lg ts-vc_icon_element-style-rounded ts-vc_icon_element-background ts-vc_icon_element-background-color-skincolor">
+																					<span
+																						class="ts-vc_icon_element-icon tsoptmicon flaticon-eye"></span>
+																				</div>
+																			</div>
+																			<h4 style="text-align:center;font-size:25px;line-height:35px;font-family:'Montserrat',Arial,Helvetica;font-weight:700;"
+																				class="ts-custom-heading ">
+																				Eye Treatment</h4>
+
+																			<div
+																				class="wpb_text_column wpb_content_element ">
+																				<div
+																					class="wpb_wrapper">
+																					<p
+																						style="text-align: center;">
+																						Lorem
+																						ipsum
+																						dolor sit
+																						amet
+																						consectetur
+																						adipisicing
+																						elit</p>
+
+																				</div>
+																			</div>
+																			<div class="vc_empty_space"
+																				style="height: 30px">
+																				<span
+																					class="vc_empty_space_inner"></span>
+																			</div>
+																			<h3 style="text-align:center;font-size:50px;line-height:60px;font-family:'Montserrat',Arial,Helvetica;font-weight:700;"
+																				class="ts-custom-heading ts-skincolor vc_custom_1529675009529">
+																				15%</h3>
+																			<h4 style="text-align:center;font-size:22px;line-height:32px;font-family:'Montserrat',Arial,Helvetica;font-weight:700;"
+																				class="ts-custom-heading vc_custom_1529675033016">
+																				Discount</h4>
+																			<div class="vc_empty_space"
+																				style="height: 10px">
+																				<span
+																					class="vc_empty_space_inner"></span>
+																			</div>
+																			<div
+																				class="ts-vc_btn3-container ts-vc_btn3-center vc_custom_1526294748407">
+																				<a class="ts-vc_general ts-vc_btn3 ts-vc_btn3-size-sm ts-vc_btn3-shape-rounded ts-vc_btn3-style-flat ts-vc_btn3-weight-yes ts-vc_btn3-color-skincolor"
+																					href="#"
+																					title="">GET
+																					OFFER</a></div>
+																		</div>
+																	</div>
+																</div>
+
+
+																<div
+																	class="ts-column-inner wpb_column vc_column_container vc_col-sm-4">
+																	<div
+																		class="vc_column-inner  ts-responsive-custom-82897190">
+
+																		<div class="wpb_wrapper">
+																			<div
+																				class="ts-vc_icon_element ts-vc_icon_element-outer ts-vc_icon_element-align-center  ts-vc_icon_element-have-style vc_custom_1526946879800">
+																				<div
+																					class="ts-vc_icon_element-inner  ts-vc_icon_element-have-style-inner ts-vc_icon_element-color-white ts-vc_icon_element-size-lg ts-vc_icon_element-style-rounded ts-vc_icon_element-background ts-vc_icon_element-background-color-skincolor">
+																					<span
+																						class="ts-vc_icon_element-icon tsoptmicon flaticon-eye-2"></span>
+																				</div>
+																			</div>
+																			<h4 style="text-align:center;font-size:25px;line-height:35px;font-family:'Montserrat',Arial,Helvetica;font-weight:700;"
+																				class="ts-custom-heading ">
+																				Cornea Services</h4>
+
+																			<div
+																				class="wpb_text_column wpb_content_element ">
+																				<div
+																					class="wpb_wrapper">
+																					<p
+																						style="text-align: center;">
+																						Lorem
+																						ipsum
+																						dolor sit
+																						amet
+																						consectetur
+																						adipisicing
+																						elit</p>
+
+																				</div>
+																			</div>
+																			<div class="vc_empty_space"
+																				style="height: 30px">
+																				<span
+																					class="vc_empty_space_inner"></span>
+																			</div>
+																			<h3 style="text-align:center;font-size:50px;line-height:60px;font-family:'Montserrat',Arial,Helvetica;font-weight:700;"
+																				class="ts-custom-heading ts-skincolor vc_custom_1529675018969">
+																				25%</h3>
+																			<h4 style="text-align:center;font-size:22px;line-height:32px;font-family:'Montserrat',Arial,Helvetica;font-weight:700;"
+																				class="ts-custom-heading vc_custom_1529675039280">
+																				Discount</h4>
+																			<div class="vc_empty_space"
+																				style="height: 10px">
+																				<span
+																					class="vc_empty_space_inner"></span>
+																			</div>
+																			<div
+																				class="ts-vc_btn3-container ts-vc_btn3-center vc_custom_1526294748407">
+																				<a class="ts-vc_general ts-vc_btn3 ts-vc_btn3-size-sm ts-vc_btn3-shape-rounded ts-vc_btn3-style-flat ts-vc_btn3-weight-yes ts-vc_btn3-color-skincolor"
+																					href="#"
+																					title="">GET
+																					OFFER</a></div>
+																		</div>
+																	</div>
+																</div>
+
+
+																<div
+																	class="ts-column-inner wpb_column vc_column_container vc_col-sm-4">
+																	<div
+																		class="vc_column-inner  ts-responsive-custom-56702956">
+
+																		<div class="wpb_wrapper">
+																			<div
+																				class="ts-vc_icon_element ts-vc_icon_element-outer ts-vc_icon_element-align-center  ts-vc_icon_element-have-style vc_custom_1526946954752">
+																				<div
+																					class="ts-vc_icon_element-inner  ts-vc_icon_element-have-style-inner ts-vc_icon_element-color-white ts-vc_icon_element-size-lg ts-vc_icon_element-style-rounded ts-vc_icon_element-background ts-vc_icon_element-background-color-skincolor">
+																					<span
+																						class="ts-vc_icon_element-icon tsoptmicon flaticon-contact-lens-4"></span>
+																				</div>
+																			</div>
+																			<h4 style="text-align:center;font-size:25px;line-height:35px;font-family:'Montserrat',Arial,Helvetica;font-weight:700;"
+																				class="ts-custom-heading ">
+																				Contact Lens</h4>
+
+																			<div
+																				class="wpb_text_column wpb_content_element ">
+																				<div
+																					class="wpb_wrapper">
+																					<p
+																						style="text-align: center;">
+																						Lorem
+																						ipsum
+																						dolor sit
+																						amet
+																						consectetur
+																						adipisicing
+																						elit</p>
+
+																				</div>
+																			</div>
+																			<div class="vc_empty_space"
+																				style="height: 30px">
+																				<span
+																					class="vc_empty_space_inner"></span>
+																			</div>
+																			<h3 style="text-align:center;font-size:50px;line-height:60px;font-family:'Montserrat',Arial,Helvetica;font-weight:700;"
+																				class="ts-custom-heading ts-skincolor vc_custom_1529675026819">
+																				18%</h3>
+																			<h4 style="text-align:center;font-size:22px;line-height:32px;font-family:'Montserrat',Arial,Helvetica;font-weight:700;"
+																				class="ts-custom-heading vc_custom_1529675046601">
+																				Discount</h4>
+																			<div class="vc_empty_space"
+																				style="height: 10px">
+																				<span
+																					class="vc_empty_space_inner"></span>
+																			</div>
+																			<div
+																				class="ts-vc_btn3-container ts-vc_btn3-center vc_custom_1526294748407">
+																				<a class="ts-vc_general ts-vc_btn3 ts-vc_btn3-size-sm ts-vc_btn3-shape-rounded ts-vc_btn3-style-flat ts-vc_btn3-weight-yes ts-vc_btn3-color-skincolor"
+																					href="#"
+																					title="">GET
+																					OFFER</a></div>
+																		</div>
+																	</div>
+																</div>
+
+															</div>
+
+														</div>
+													</div>
+												</div>
+
+
+											</div>
+										</div>
+
+										<div class="vc_row-full-width vc_clearfix"></div>
+
+										<div data-vc-full-width="true" data-vc-full-width-init="false"
+											class="ts-row wpb_row vc_row-fluid clearfix vc_custom_1527857176059 vc_row-has-fill ts-bgcolor-grey ts-bgimage-position-center_center">
+
+
+											<div class="vc_row container">
+
+												<div
+													class="ts-column wpb_column vc_column_container vc_col-sm-6">
+													<div
+														class="vc_column-inner vc_custom_1529144643465 ts-responsive-custom-71087360">
+														<div class="wpb_wrapper">
+															<div
+																class="themestek-boxes themestek-boxes-blog themestek-boxes-view-default themestek-boxes-col-one themestek-boxes-sortable-no themestek-boxes-textalign-left themestek-boxes-sortablebutton-">
+																<div
+																	class="themestek-boxes-inner themestek-boxes-blog-inner ">
+																	<div
+																		class="themestek-box-heading-wrapper ts-element-align-left">
+																		<div
+																			class="ts-element-heading-wrapper ts-heading-inner ts-element-align-left ts-seperator-none ">
+																			<section
+																				class="ts-vc_cta3-container">
+																				<div
+																					class="ts-vc_general ts-vc_cta3 ts-cta3-only ts-vc_cta3-style-classic ts-vc_cta3-shape-rounded ts-vc_cta3-align-left ts-vc_cta3-color-transparent ts-vc_cta3-icon-size-md ts-vc_cta3-actions-no ts-cta3-without-desc">
+																					<div
+																						class="ts-vc_cta3_content-container">
+																						<div
+																							class="ts-vc_cta3-content">
+																							<div
+																								class="ts-vc_cta3-content-header ts-wrap">
+																								<div
+																									class="ts-vc_cta3-headers ts-wrap-cell">
+																									<h4
+																										class="ts-custom-heading ">
+																										RECENT
+																										NEWS
+																									</h4>
+																									<h2
+																										class="ts-custom-heading ">
+																										WHAT'S
+																										GOING
+																										ON<br />
+																										<strong>IN
+																											OUR
+																											BLOG?</strong>
+																									</h2>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</section>
+																		</div>
+																		<!-- .ts-element-heading-wrapper container -->
+																	</div>
+																	<!-- .ts-element-heading-wrapper container -->
+
+																	<div
+																		class="row multi-columns-row themestek-boxes-row-wrapper">
+																		<div
+																			class="ts-box-col-wrapper col-lg-12 col-sm-12 col-md-12 col-xs-12 paediatric">
+																			<article
+																				class="themestek-box themestek-box-blog ts-blogbox-style-2 themestek-blogbox-format-  themestek-box-view-style2 themestek-blog-box-view-left-image themestek-blog-box-lr">
+																				<div
+																					class="post-item">
+
+																					<div
+																						class="col-md-4 col-sm-4 themestek-box-img-left">
+																						<div
+																							class="ts-featured-wrapper ts-post-featured-wrapper ts-post-format-">
+																							<img width="800"
+																								height="740"
+																								src="wp-content/uploads/sites/2/2018/02/04-800x740.jpg"
+																								class="attachment-themestek-img-800x740 size-themestek-img-800x740 wp-post-image"
+																								alt=""
+																								data-id="3877" />
+																						</div>
+																					</div>
+
+																					<div
+																						class="themestek-box-content col-md-8 col-sm-8">
+																						<div
+																							class="themestek-box-content-inner">
+																							<div
+																								class="ts-featured-meta-wrapper ts-featured-overlay">
+
+																								<span
+																									class="ts-meta-line cat-links"><i
+																										class="ts-optico-icon-category"></i>
+																									<span
+																										class="screen-reader-text ts-hide">Categories
+																									</span><a
+																										href="category/paediatric/index.html">Paediatric</a></span>
+
+																								<span
+																									class="ts-meta-line posted-on">
+																									<i
+																										class="ts-optico-icon-clock"></i>
+																									<span
+																										class="screen-reader-text ts-hide">Posted
+																										on
+																									</span>
+																									<a href="2018/02/18/thats-why-it-is-so-important-to-see-an-ophthalmologist/index.html"
+																										rel="bookmark">
+																										<time class="entry-date published"
+																											datetime="2018-02-18T09:49:46+00:00">February
+																											18,
+																											2018</time>
+																										<time class="updated ts-hide"
+																											datetime="2018-06-16T13:13:24+00:00">June
+																											16,
+																											2018</time>
+																									</a>
+																								</span>
+
+																							</div>
+																							<div
+																								class="themestek-box-title">
+																								<h4><a
+																										href="2018/02/18/thats-why-it-is-so-important-to-see-an-ophthalmologist/index.html">That&#8217;s
+																										why
+																										it
+																										is
+																										so
+																										important
+																										to
+																										see
+																										an
+																										ophthalmologist</a>
+																								</h4>
+																							</div>
+																							<div
+																								class="themestek-box-desc">
+																								<div
+																									class="themestek-box-desc-text">
+																									<p>Eyecare
+																										Sed
+																										ut
+																										perspiciatis
+																										unde
+																										omnis
+																										iste
+																										natus
+																										error
+																										doloremque
+																										laudantium.
+																									</p>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																		<div
+																			class="ts-box-col-wrapper col-lg-12 col-sm-12 col-md-12 col-xs-12 glaucoma">
+																			<article
+																				class="themestek-box themestek-box-blog ts-blogbox-style-2 themestek-blogbox-format-  themestek-box-view-style2 themestek-blog-box-view-left-image themestek-blog-box-lr">
+																				<div
+																					class="post-item">
+
+																					<div
+																						class="col-md-4 col-sm-4 themestek-box-img-left">
+																						<div
+																							class="ts-featured-wrapper ts-post-featured-wrapper ts-post-format-">
+																							<img width="800"
+																								height="740"
+																								src="wp-content/uploads/sites/2/2018/02/14-800x740.jpg"
+																								class="attachment-themestek-img-800x740 size-themestek-img-800x740 wp-post-image"
+																								alt=""
+																								data-id="3869" />
+																						</div>
+																					</div>
+
+																					<div
+																						class="themestek-box-content col-md-8 col-sm-8">
+																						<div
+																							class="themestek-box-content-inner">
+																							<div
+																								class="ts-featured-meta-wrapper ts-featured-overlay">
+
+																								<span
+																									class="ts-meta-line cat-links"><i
+																										class="ts-optico-icon-category"></i>
+																									<span
+																										class="screen-reader-text ts-hide">Categories
+																									</span><a
+																										href="category/glaucoma/index.html">Glaucoma</a></span>
+
+																								<span
+																									class="ts-meta-line posted-on">
+																									<i
+																										class="ts-optico-icon-clock"></i>
+																									<span
+																										class="screen-reader-text ts-hide">Posted
+																										on
+																									</span>
+																									<a href="2018/01/21/signs-or-risk-factors-for-eye-disease/index.html"
+																										rel="bookmark">
+																										<time class="entry-date published"
+																											datetime="2018-01-21T10:43:28+00:00">January
+																											21,
+																											2018</time>
+																										<time class="updated ts-hide"
+																											datetime="2018-06-16T13:13:59+00:00">June
+																											16,
+																											2018</time>
+																									</a>
+																								</span>
+
+																							</div>
+																							<div
+																								class="themestek-box-title">
+																								<h4><a
+																										href="2018/01/21/signs-or-risk-factors-for-eye-disease/index.html">Signs
+																										or
+																										risk
+																										factors
+																										for
+																										eye
+																										disease</a>
+																								</h4>
+																							</div>
+																							<div
+																								class="themestek-box-desc">
+																								<div
+																									class="themestek-box-desc-text">
+																									<p>Eyecare
+																										Sed
+																										ut
+																										perspiciatis
+																										unde
+																										omnis
+																										iste
+																										natus
+																										error
+																										doloremque
+																										laudantium.
+																									</p>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																	</div>
+																</div><!-- .themestek-boxes-inner -->
+															</div><!-- .themestek-boxes -->
+														</div>
+													</div>
+												</div>
+
+
+												<div
+													class="ts-column wpb_column vc_column_container vc_col-sm-6">
+													<div class="vc_column-inner  ">
+														<div class="wpb_wrapper">
+															<div
+																class="ts-element-heading-wrapper ts-heading-inner ts-element-align-left ts-seperator-none  ts-capitalize">
+																<section
+																	class="ts-vc_cta3-container ts-capitalize">
+																	<div
+																		class="ts-vc_general ts-vc_cta3 ts-cta3-only ts-vc_cta3-style-classic ts-vc_cta3-shape-rounded ts-vc_cta3-align-left ts-vc_cta3-color-transparent ts-vc_cta3-icon-size-md ts-vc_cta3-actions-no ts-cta3-without-desc">
+																		<div
+																			class="ts-vc_cta3_content-container">
+																			<div
+																				class="ts-vc_cta3-content">
+																				<div
+																					class="ts-vc_cta3-content-header ts-wrap">
+																					<div
+																						class="ts-vc_cta3-headers ts-wrap-cell">
+																						<h4
+																							class="ts-custom-heading ">
+																							FREQUENTLY
+																							ASKED
+																							QUESTIONS
+																						</h4>
+																						<h2
+																							class="ts-custom-heading ">
+																							FEEL
+																							FREE
+																							FOR<br />
+																							<strong>ANY
+																								FAQS</strong>
+																						</h2>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</section>
+															</div>
+															<!-- .ts-element-heading-wrapper container -->
+															<div class="vc_tta-container"
+																data-vc-action="collapse">
+																<div
+																	class="vc_general vc_tta vc_tta-accordion vc_tta-color-skincolor vc_tta-style-classic vc_tta-shape-rounded vc_tta-o-shape-group vc_tta-gap-10 vc_tta-controls-align-left vc_tta-o-no-fill  ts-leftimage-con">
+																	<div
+																		class="vc_tta-panels-container">
+																		<div class="vc_tta-panels">
+																			<div class="vc_tta-panel vc_active"
+																				id="1524995204671-cf960c4e-aaaf"
+																				data-vc-content=".vc_tta-panel-body">
+																				<div
+																					class="vc_tta-panel-heading">
+																					<h4
+																						class="vc_tta-panel-title vc_tta-controls-icon-position-right">
+																						<a href="#1524995204671-cf960c4e-aaaf"
+																							data-vc-accordion
+																							data-vc-container=".vc_tta-container"><span
+																								class="vc_tta-title-text">Do
+																								you
+																								Provide
+																								Consultation
+																								for
+																								free
+																								?</span><i
+																								class="vc_tta-controls-icon vc_tta-controls-icon-chevron"></i></a>
+																					</h4>
+																				</div>
+																				<div
+																					class="vc_tta-panel-body">
+																					<div
+																						class="ts-row-inner vc_row wpb_row vc_inner vc_row-fluid vc_custom_1524999062760">
+
+																						<div
+																							class="ts-column-inner wpb_column vc_column_container vc_col-sm-2">
+																							<div
+																								class="vc_column-inner vc_custom_1524998704455 ">
+
+																								<div
+																									class="wpb_wrapper">
+
+																									<div
+																										class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1524998927408">
+
+																										<figure
+																											class="wpb_wrapper vc_figure">
+																											<div
+																												class="vc_single_image-wrapper   vc_box_border_grey">
+																												<img class="vc_single_image-img "
+																													src="wp-content/uploads/sites/2/2018/02/14-80x70.jpg"
+																													width="80"
+																													height="70"
+																													alt="14"
+																													title="14" />
+																											</div>
+																										</figure>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+
+
+																						<div
+																							class="ts-column-inner wpb_column vc_column_container vc_col-sm-10">
+																							<div
+																								class="vc_column-inner  ">
+
+																								<div
+																									class="wpb_wrapper">
+
+																									<div
+																										class="wpb_text_column wpb_content_element  vc_custom_1524998932658">
+																										<div
+																											class="wpb_wrapper">
+																											<p>Lorem
+																												ipsum
+																												dolor
+																												sit
+																												amet,
+																												consectetur
+																												adipiscing
+																												elit,
+																												sed
+																												do
+																												eiusmod
+																												tempor
+																												incididunt
+																												ut
+																												labore
+																												et
+																												dolore
+																												magna
+																												aliqua.
+																												Ut
+																												enim
+																												ad
+																												minim
+																												veniam,
+																											</p>
+
+																										</div>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+
+																					</div>
+
+																				</div>
+																			</div>
+																			<div class="vc_tta-panel"
+																				id="1524999111324-29a4ff78-d512"
+																				data-vc-content=".vc_tta-panel-body">
+																				<div
+																					class="vc_tta-panel-heading">
+																					<h4
+																						class="vc_tta-panel-title vc_tta-controls-icon-position-right">
+																						<a href="#1524999111324-29a4ff78-d512"
+																							data-vc-accordion
+																							data-vc-container=".vc_tta-container"><span
+																								class="vc_tta-title-text">What
+																								are
+																								the
+																								hospital
+																								timings
+																								?</span><i
+																								class="vc_tta-controls-icon vc_tta-controls-icon-chevron"></i></a>
+																					</h4>
+																				</div>
+																				<div
+																					class="vc_tta-panel-body">
+																					<div
+																						class="ts-row-inner vc_row wpb_row vc_inner vc_row-fluid vc_custom_1524999062760">
+
+																						<div
+																							class="ts-column-inner wpb_column vc_column_container vc_col-sm-2">
+																							<div
+																								class="vc_column-inner vc_custom_1524998704455 ">
+
+																								<div
+																									class="wpb_wrapper">
+
+																									<div
+																										class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1527833878463">
+
+																										<figure
+																											class="wpb_wrapper vc_figure">
+																											<div
+																												class="vc_single_image-wrapper   vc_box_border_grey">
+																												<img class="vc_single_image-img "
+																													src="wp-content/uploads/sites/2/2018/05/teamimage5-80x70.jpg"
+																													width="80"
+																													height="70"
+																													alt="teamimage5"
+																													title="teamimage5" />
+																											</div>
+																										</figure>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+
+
+																						<div
+																							class="ts-column-inner wpb_column vc_column_container vc_col-sm-10">
+																							<div
+																								class="vc_column-inner  ">
+
+																								<div
+																									class="wpb_wrapper">
+
+																									<div
+																										class="wpb_text_column wpb_content_element  vc_custom_1524998932658">
+																										<div
+																											class="wpb_wrapper">
+																											<p>Lorem
+																												ipsum
+																												dolor
+																												sit
+																												amet,
+																												consectetur
+																												adipiscing
+																												elit,
+																												sed
+																												do
+																												eiusmod
+																												tempor
+																												incididunt
+																												ut
+																												labore
+																												et
+																												dolore
+																												magna
+																												aliqua.
+																												Ut
+																												enim
+																												ad
+																												minim
+																												veniam,
+																											</p>
+
+																										</div>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+
+																					</div>
+
+																				</div>
+																			</div>
+																			<div class="vc_tta-panel"
+																				id="1524995204722-f37e246a-0405"
+																				data-vc-content=".vc_tta-panel-body">
+																				<div
+																					class="vc_tta-panel-heading">
+																					<h4
+																						class="vc_tta-panel-title vc_tta-controls-icon-position-right">
+																						<a href="#1524995204722-f37e246a-0405"
+																							data-vc-accordion
+																							data-vc-container=".vc_tta-container"><span
+																								class="vc_tta-title-text">What
+																								is
+																								Eye
+																								donation?</span><i
+																								class="vc_tta-controls-icon vc_tta-controls-icon-chevron"></i></a>
+																					</h4>
+																				</div>
+																				<div
+																					class="vc_tta-panel-body">
+																					<div
+																						class="ts-row-inner vc_row wpb_row vc_inner vc_row-fluid vc_custom_1524999062760">
+
+																						<div
+																							class="ts-column-inner wpb_column vc_column_container vc_col-sm-2">
+																							<div
+																								class="vc_column-inner vc_custom_1524998704455 ">
+
+																								<div
+																									class="wpb_wrapper">
+
+																									<div
+																										class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1527833921799">
+
+																										<figure
+																											class="wpb_wrapper vc_figure">
+																											<div
+																												class="vc_single_image-wrapper   vc_box_border_grey">
+																												<img class="vc_single_image-img "
+																													src="wp-content/uploads/sites/2/2018/05/teamimage3-80x70.jpg"
+																													width="80"
+																													height="70"
+																													alt="teamimage3"
+																													title="teamimage3" />
+																											</div>
+																										</figure>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+
+
+																						<div
+																							class="ts-column-inner wpb_column vc_column_container vc_col-sm-10">
+																							<div
+																								class="vc_column-inner  ">
+
+																								<div
+																									class="wpb_wrapper">
+
+																									<div
+																										class="wpb_text_column wpb_content_element  vc_custom_1524998932658">
+																										<div
+																											class="wpb_wrapper">
+																											<p>Lorem
+																												ipsum
+																												dolor
+																												sit
+																												amet,
+																												consectetur
+																												adipiscing
+																												elit,
+																												sed
+																												do
+																												eiusmod
+																												tempor
+																												incididunt
+																												ut
+																												labore
+																												et
+																												dolore
+																												magna
+																												aliqua.
+																												Ut
+																												enim
+																												ad
+																												minim
+																												veniam,
+																											</p>
+
+																										</div>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+
+																					</div>
+
+																				</div>
+																			</div>
+																			<div class="vc_tta-panel"
+																				id="1524999190970-2827e4ac-6ba9"
+																				data-vc-content=".vc_tta-panel-body">
+																				<div
+																					class="vc_tta-panel-heading">
+																					<h4
+																						class="vc_tta-panel-title vc_tta-controls-icon-position-right">
+																						<a href="#1524999190970-2827e4ac-6ba9"
+																							data-vc-accordion
+																							data-vc-container=".vc_tta-container"><span
+																								class="vc_tta-title-text">How
+																								is
+																								a
+																								cataract
+																								removed?</span><i
+																								class="vc_tta-controls-icon vc_tta-controls-icon-chevron"></i></a>
+																					</h4>
+																				</div>
+																				<div
+																					class="vc_tta-panel-body">
+																					<div
+																						class="ts-row-inner vc_row wpb_row vc_inner vc_row-fluid vc_custom_1524999062760">
+
+																						<div
+																							class="ts-column-inner wpb_column vc_column_container vc_col-sm-2">
+																							<div
+																								class="vc_column-inner vc_custom_1524998704455 ">
+
+																								<div
+																									class="wpb_wrapper">
+
+																									<div
+																										class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1527833961832">
+
+																										<figure
+																											class="wpb_wrapper vc_figure">
+																											<div
+																												class="vc_single_image-wrapper   vc_box_border_grey">
+																												<img class="vc_single_image-img "
+																													src="wp-content/uploads/sites/2/2018/05/teamimage2-80x70.jpg"
+																													width="80"
+																													height="70"
+																													alt="teamimage2"
+																													title="teamimage2" />
+																											</div>
+																										</figure>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+
+
+																						<div
+																							class="ts-column-inner wpb_column vc_column_container vc_col-sm-10">
+																							<div
+																								class="vc_column-inner  ">
+
+																								<div
+																									class="wpb_wrapper">
+
+																									<div
+																										class="wpb_text_column wpb_content_element  vc_custom_1524998932658">
+																										<div
+																											class="wpb_wrapper">
+																											<p>Lorem
+																												ipsum
+																												dolor
+																												sit
+																												amet,
+																												consectetur
+																												adipiscing
+																												elit,
+																												sed
+																												do
+																												eiusmod
+																												tempor
+																												incididunt
+																												ut
+																												labore
+																												et
+																												dolore
+																												magna
+																												aliqua.
+																												Ut
+																												enim
+																												ad
+																												minim
+																												veniam,
+																											</p>
+
+																										</div>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+
+																					</div>
+
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+
+
+											</div>
+										</div>
+
+										<div class="vc_row-full-width vc_clearfix"></div>
+									</div><!-- .entry-content -->
+
+
+								</article><!-- #post-## -->
+							</main><!-- #main .site-main -->
+						</div><!-- #primary .content-area -->
+
+
+
+					</div><!-- .site-content-inner -->
+				</div><!-- .site-content -->
+			</div><!-- .site-content-wrapper -->
+
+			<footer id="colophon" class="site-footer ">
+				<div class="footer_inner_wrapper footer ts-bg ts-bgcolor-grey ts-bgimage-no">
+					<div class="site-footer-bg-layer ts-bg-layer"></div>
+					<div class="site-footer-w">
+						<div class="footer-rows">
+							<div class="footer-rows-inner">
+
+
+								<div id="first-footer"
+									class="sidebar-container first-footer  ts-bg ts-bgcolor-skincolor ts-textcolor-dark ts-bgimage-no"
+									role="complementary">
+									<div class="first-footer-bg-layer ts-bg-layer"></div>
+									<div class="container">
+										<div class="first-footer-inner">
+											<div class="row multi-columns-row">
+
+												<div
+													class="widget-area col-xs-12 col-sm-12 col-md-12 col-lg-12 first-widget-area">
+													<aside id="enhancedtextwidget-2"
+														class="ts-footer-cta widget widget_text enhanced-text-widget">
+														<div class="textwidget widget-text">
+															<section class="ts-vc_cta3-container">
+																<div
+																	class="ts-vc_general ts-vc_cta3 ts-cta3-only ts-vc_cta3-style-classic ts-vc_cta3-shape-square ts-vc_cta3-align-left ts-vc_cta3-color-transparent ts-vc_cta3-icon-size-lg ts-vc_cta3-icons-left ts-vc_cta3-actions-right ts-cta3-without-desc">
+																	<div
+																		class="ts-vc_cta3-icons ts-wrap-cell">
+																		<div
+																			class="ts-vc_icon_element ts-vc_icon_element-outer ts-vc_icon_element-align-left  ts-vc_icon_element-have-style">
+																			<div
+																				class="ts-vc_icon_element-inner  ts-vc_icon_element-have-style-inner ts-vc_icon_element-color-black ts-vc_icon_element-size-lg ts-vc_icon_element-style-rounded ts-vc_icon_element-background ts-vc_icon_element-background-color-white">
+																				<span
+																					class="ts-vc_icon_element-icon themifyicon ti-headphone-alt"></span>
+																			</div>
+																		</div>
+																	</div>
+																	<div
+																		class="ts-vc_cta3_content-container">
+																		<div
+																			class="ts-vc_cta3-content">
+																			<div
+																				class="ts-vc_cta3-content-header ts-wrap">
+																				<div
+																					class="ts-vc_cta3-headers ts-wrap-cell">
+																					<h2 style="font-size:22px;line-height:36px;"
+																						class="ts-custom-heading ">
+																						If you
+																						Have Any
+																						Questions
+																						Schedule
+																						an
+																						Appointment
+																						<strong>With
+																							Our
+																							Doctor
+																							OR
+																							Call
+																							Us On
+																							(010)123-456-7890</strong>
+																					</h2>
+																				</div>
+																			</div>
+																		</div>
+																		<div
+																			class="ts-vc_cta3-actions">
+																			<div
+																				class="ts-vc_btn3-container ts-vc_btn3-right">
+																				<a class="ts-vc_general ts-vc_btn3 ts-vc_btn3-size-md ts-vc_btn3-shape-rounded ts-vc_btn3-style-flat ts-vc_btn3-weight-yes ts-vc_btn3-color-black"
+																					href="#"
+																					title=""> Make
+																					an
+																					Appointment</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</section>
+														</div>
+													</aside>
+												</div><!-- .widget-area -->
+
+											</div><!-- .row.multi-columns-row -->
+										</div><!-- .first-footer-inner -->
+									</div><!--  -->
+								</div><!-- #secondary -->
+
+
+
+								<div id="second-footer"
+									class="sidebar-container second-footer ts-bg ts-bgcolor-transparent ts-textcolor-dark ts-bgimage-no"
+									role="complementary">
+									<div class="second-footer-bg-layer ts-bg-layer"></div>
+									<div class="container">
+										<div class="second-footer-inner">
+											<div class="row multi-columns-row">
+
+
+												<div
+													class="widget-area col-xs-12 col-sm-6 col-md-3 col-lg-3">
+													<aside id="enhancedtextwidget-3"
+														class="widget widget_text enhanced-text-widget">
+														<div class="textwidget widget-text">
+															<div class="footerlogo"><img alt="Optico"
+																	src="../wp-content/uploads/2018/06/logo.png"
+																	height="54"></div>
+
+															Lorem ipsum dolor sit amet, consectetur
+															adipiscing elit, sed do eiusmod tempor asin
+															cididunt ut labore et dolore magna ali qua.
+															Lorem ipsum dolor sit amet.
+															<div class="vc_empty_space"
+																style="height: 30px"><span
+																	class="vc_empty_space_inner"></span>
+															</div>
+															<div class="themestek-social-links-wrapper">
+																<ul class="social-icons">
+																	<li class="ts-social-facebook"><a
+																			class=" tooltip-top"
+																			target="_blank" href="#"
+																			data-tooltip="Facebook"><i
+																				class="ts-optico-icon-facebook"></i></a>
+																	</li>
+																	<li class="ts-social-twitter"><a
+																			class=" tooltip-top"
+																			target="_blank" href="#"
+																			data-tooltip="Twitter"><i
+																				class="ts-optico-icon-twitter"></i></a>
+																	</li>
+																	<li class="ts-social-flickr"><a
+																			class=" tooltip-top"
+																			target="_blank" href="#"
+																			data-tooltip="Flickr"><i
+																				class="ts-optico-icon-flickr"></i></a>
+																	</li>
+																	<li class="ts-social-linkedin"><a
+																			class=" tooltip-top"
+																			target="_blank" href="#"
+																			data-tooltip="LinkedIn"><i
+																				class="ts-optico-icon-linkedin"></i></a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</aside>
+												</div><!-- .widget-area -->
+
+												<div
+													class="widget-area col-xs-12 col-sm-6 col-md-3 col-lg-3">
+													<aside id="nav_menu-2" class="widget widget_nav_menu">
+														<h3 class="widget-title">Usefull Links</h3>
+														<div class="menu-footer-usefull-links-container">
+															<ul id="menu-footer-usefull-links-1"
+																class="menu">
+																<li
+																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5283">
+																	<a
+																		href="make-appointments/index.html">Make
+																		Appointments</a></li>
+																<li
+																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5284">
+																	<a href="contact-us/index.html">Contact
+																		Us</a></li>
+																<li
+																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5285">
+																	<a
+																		href="treatments/index.html">Treatments</a>
+																</li>
+																<li
+																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5286">
+																	<a href="about-us/index.html">About
+																		Us</a></li>
+																<li
+																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5287">
+																	<a href="our-doctors/index.html">Our
+																		Doctors</a></li>
+																<li
+																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5288">
+																	<a href="before-after/index.html">Before
+																		&amp; After</a></li>
+															</ul>
+														</div>
+													</aside>
+												</div><!-- .widget-area -->
+
+												<div
+													class="widget-area col-xs-12 col-sm-6 col-md-3 col-lg-3">
+													<aside id="nav_menu-3" class="widget widget_nav_menu">
+														<h3 class="widget-title">Our Services</h3>
+														<div class="menu-footer-service-menu-container">
+															<ul id="menu-footer-service-menu-1"
+																class="menu">
+																<li
+																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5250">
+																	<a href="#">Glaucoma Surgery</a>
+																</li>
+																<li
+																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5251">
+																	<a href="#">Laser Eye Surgery</a>
+																</li>
+																<li
+																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5252">
+																	<a href="#">Cataract Surgery</a>
+																</li>
+																<li
+																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5253">
+																	<a href="#">Vision Correction</a>
+																</li>
+																<li
+																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5254">
+																	<a href="#">Oculoplastic
+																		Surgery</a></li>
+																<li
+																	class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5255">
+																	<a href="#">Vitreo Retinal
+																		Surgery</a></li>
+															</ul>
+														</div>
+													</aside>
+												</div><!-- .widget-area -->
+
+												<div
+													class="widget-area col-xs-12 col-sm-6 col-md-3 col-lg-3">
+													<aside id="optico_contact_widget-3"
+														class="widget optico_contact_widget">
+														<h3 class="widget-title">Get in touch</h3>
+														<ul class="optico_contact_widget_wrapper">
+															<li
+																class="themestek-contact-address  ts-optico-icon-location-pin">
+																OPTICO EYE HOSPITAL<br />
+																Lorance 542B, Tailstoi Town <br />
+																5248 MT, Wordwide Country </li>
+															<li
+																class="themestek-contact-phonenumber ts-optico-icon-mobile">
+																(+01) 123 456 7890</li>
+															<li
+																class="themestek-contact-email ts-optico-icon-comment-1">
+																<a href="mailto:info@example.com"
+																	target="_blank">info@example.com</a>
+															</li>
+															<li
+																class="themestek-contact-time ts-optico-icon-clock">
+																Mon to Sat - 9:00am to 6:00pm <br />
+															</li>
+														</ul>
+
+													</aside>
+												</div><!-- .widget-area -->
+
+
+											</div><!-- .row.multi-columns-row -->
+										</div><!-- .second-footer-inner -->
+									</div><!--  -->
+								</div><!-- #secondary -->
+
+							</div><!-- .footer-inner -->
+						</div><!-- .footer -->
+
+						<div id="bottom-footer-text"
+							class="bottom-footer-text ts-bottom-footer-text site-info  ts-bg ts-bgcolor-transparent ts-textcolor-dark ts-bgimage-no">
+							<div class="bottom-footer-bg-layer ts-bg-layer"></div>
+							<div class="container">
+								<div class="bottom-footer-inner">
+									<div class="row multi-columns-row">
+
+
+										<div class="col-xs-12 col-sm-5 ts-footer2-left ">
+											Copyright © 2017 <a
+												href="http://optico.themestek.com/">Optico</a>. All rights
+											reserved. </div>
+										<!--.footer menu -->
+
+										<div class="col-xs-12 col-sm-7 ts-footer2-right">
+											<ul id="menu-footer-menu" class="footer-nav-menu">
+												<li id="menu-item-5256"
+													class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5256">
+													<a href="#">About Us</a></li>
+												<li id="menu-item-5257"
+													class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5257">
+													<a href="#">Services</a></li>
+												<li id="menu-item-5258"
+													class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5258">
+													<a href="#">Privacy</a></li>
+											</ul>
+										</div>
+										<!--.copyright -->
+
+									</div><!-- .row.multi-columns-row -->
+								</div><!-- .bottom-footer-inner -->
+							</div><!--  -->
+						</div><!-- .footer-text -->
+					</div><!-- .footer-inner-wrapper -->
+				</div><!-- .site-footer-inner -->
+			</footer><!-- .site-footer -->
+
+		</div><!-- #page .site -->
+
+	</div><!-- .main-holder -->
+
+	<!-- To Top -->
+	<a id="totop" href="#top"><i class="ts-optico-icon-angle-up"></i></a>
+
+	<script>
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+	<script>
+		function revslider_showDoubleJqueryError(sliderID) {
+			var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+			errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+			errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+			errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+			errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+			jQuery(sliderID).show().html(errorMessage);
+		}
+	</script>
+	<link rel='stylesheet' id='vc_tta_style-css'
+		href='wp-content/plugins/js_composer/assets/css/js_composer_tta.min1eb7.css?ver=6.0.3' media='all' />
+	<link rel='stylesheet' id='ts-footer-gfonts-css'
+		href='https://fonts.googleapis.com/css?family=Abril+Fatface%7CArimo%3A700%7CMontserrat%3A700&amp;ver=1.0.0'
+		media='all' />
+	<script src='wp-includes/js/jquery/ui/core.mine899.js?ver=1.11.4'></script>
+	<script src='wp-includes/js/jquery/ui/datepicker.mine899.js?ver=1.11.4'></script>
+	<script>
+		jQuery(document).ready(function (jQuery) { jQuery.datepicker.setDefaults({ "closeText": "Close", "currentText": "Today", "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "nextText": "Next", "prevText": "Previous", "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"], "dateFormat": "MM d, yy", "firstDay": 1, "isRTL": false }); });
+	</script>
+	<script src='wp-content/plugins/booked/assets/js/spin.min7406.js?ver=2.0.1'></script>
+	<script src='wp-content/plugins/booked/assets/js/spin.jquery7406.js?ver=2.0.1'></script>
+	<script src='wp-content/plugins/booked/assets/js/tooltipster/js/jquery.tooltipster.min9b70.js?ver=3.3.0'></script>
+	<script>
+		/* <![CDATA[ */
+		var booked_js_vars = { "ajax_url": "https:\/\/optico.themestek.com\/demo1\/wp-admin\/admin-ajax.php", "profilePage": "", "publicAppointments": "", "i18n_confirm_appt_delete": "Are you sure you want to cancel this appointment?", "i18n_please_wait": "Please wait ...", "i18n_wrong_username_pass": "Wrong username\/password combination.", "i18n_fill_out_required_fields": "Please fill out all required fields.", "i18n_guest_appt_required_fields": "Please enter your name to book an appointment.", "i18n_appt_required_fields": "Please enter your name, your email address and choose a password to book an appointment.", "i18n_appt_required_fields_guest": "Please fill in all \"Information\" fields.", "i18n_password_reset": "Please check your email for instructions on resetting your password.", "i18n_password_reset_error": "That username or email is not recognized." };
+/* ]]> */
+	</script>
+	<script src='wp-content/plugins/booked/assets/js/functions5bf8.js?ver=2.2.5'></script>
+	<script src='wp-content/plugins/twenty20/assets/js/jquery.twenty209748.js?ver=1.55'></script>
+	<script src='wp-content/plugins/twenty20/assets/js/jquery.event.move9748.js?ver=1.55'></script>
+	<script>
+		/* <![CDATA[ */
+		var wpcf7 = { "apiSettings": { "root": "https:\/\/optico.themestek.com\/demo1\/wp-json\/contact-form-7\/v1", "namespace": "contact-form-7\/v1" }, "cached": "1" };
+/* ]]> */
+	</script>
+	<script src='wp-content/plugins/contact-form-7/includes/js/scriptsbdeb.js?ver=5.1.3'></script>
+	<script src='wp-content/themes/optico/libraries/prettyphoto/js/jquery.prettyPhoto0606.js?ver=5.2.9'></script>
+	<script src='wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min6b25.js?ver=2.1.4'></script>
+	<script>
+		/* <![CDATA[ */
+		var woocommerce_params = { "ajax_url": "\/demo1\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/demo1\/?wc-ajax=%%endpoint%%" };
+/* ]]> */
+	</script>
+	<script src='wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min5aed.js?ver=3.6.4'></script>
+	<script>
+		/* <![CDATA[ */
+		var wc_cart_fragments_params = { "ajax_url": "\/demo1\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/demo1\/?wc-ajax=%%endpoint%%", "cart_hash_key": "wc_cart_hash_efa4fc01a9b04b0b59a4de4535af7988", "fragment_name": "wc_fragments_efa4fc01a9b04b0b59a4de4535af7988", "request_timeout": "5000" };
+/* ]]> */
+	</script>
+	<script src='wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min5aed.js?ver=3.6.4'></script>
+	<script>
+		/* <![CDATA[ */
+		var booked_fea_vars = { "ajax_url": "https:\/\/optico.themestek.com\/demo1\/wp-admin\/admin-ajax.php", "i18n_confirm_appt_delete": "Are you sure you want to cancel this appointment?", "i18n_confirm_appt_approve": "Are you sure you want to approve this appointment?" };
+/* ]]> */
+	</script>
+	<script src='wp-content/plugins/booked-frontend-agents/js/functions5bf8.js?ver=2.2.5'></script>
+	<script
+		src='wp-content/themes/optico/libraries/perfect-scrollbar/perfect-scrollbar.jquery.min0606.js?ver=5.2.9'></script>
+	<script src='wp-content/themes/optico/libraries/select2/select2.min0606.js?ver=5.2.9'></script>
+	<script
+		src='wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min1eb7.js?ver=6.0.3'></script>
+	<script src='wp-content/themes/optico/libraries/jquery-mousewheel/jquery.mousewheel.min0606.js?ver=5.2.9'></script>
+	<script
+		src='wp-content/plugins/js_composer/assets/lib/bower/flexslider/jquery.flexslider-min1eb7.js?ver=6.0.3'></script>
+	<script src='wp-content/themes/optico/libraries/sticky-kit/jquery.sticky-kit.min0606.js?ver=5.2.9'></script>
+	<script src='wp-content/themes/optico/libraries/slick/slick.min0606.js?ver=5.2.9'></script>
+	<script src='wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min1eb7.js?ver=6.0.3'></script>
+	<script>
+		/* <![CDATA[ */
+		var ts_breakpoint = "1200";
+		var ajaxurl = "index.html\/\/optico.themestek.com\/demo1\/wp-admin\/admin-ajax.php";
+/* ]]> */
+	</script>
+	<script src='wp-content/themes/optico/js/scripts.min5152.js?ver=1.0'></script>
+	<script src='wp-includes/js/wp-embed.min0606.js?ver=5.2.9'></script>
+	<script src='wp-content/plugins/js_composer/assets/lib/vc_waypoints/vc-waypoints.min1eb7.js?ver=6.0.3'></script>
+	<script src='wp-content/themes/optico/libraries/waypoints/jquery.waypoints.min0606.js?ver=5.2.9'></script>
+	<script src='wp-content/themes/optico/libraries/numinate/numinate.min0606.js?ver=5.2.9'></script>
+	<script src='wp-content/plugins/js_composer/assets/lib/vc_accordion/vc-accordion.min1eb7.js?ver=6.0.3'></script>
+	<script
+		src='wp-content/plugins/js_composer/assets/lib/vc-tta-autoplay/vc-tta-autoplay.min1eb7.js?ver=6.0.3'></script>
+</body>
+
+<!-- Mirrored from optico.themestek.com/demo1/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Nov 2020 06:07:58 GMT -->
+
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using disk: enhanced 
+
+Served from: optico.themestek.com @ 2020-11-14 06:04:13 by W3 Total Cache
+-->

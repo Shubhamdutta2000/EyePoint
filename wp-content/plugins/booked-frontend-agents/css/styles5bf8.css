@@ -1,0 +1,43 @@
+.booked-fea-appt-list { border:none; padding:0; background:transparent; margin:0; }
+.booked-fea-appt-list .appt-block { border-top:1px solid #ddd; padding:13px 0 18px; display:block; font-size:14px; box-sizing:border-box; line-height:1.7; font-family:"Open Sans",sans-serif; }
+.booked-fea-appt-list .appt-block .booked-icon { width:23px; }
+.booked-fea-appt-list .appt-block a { font-size:16px; font-weight:600; text-decoration:none; }
+.booked-fea-appt-list .appt-block button { float:right; margin:11px 0 0 0; }
+.booked-fea-appt-list .appt-block a.delete { float:right; margin:11px 0 0 20px; font-size:20px; line-height:1.3; color:#F59E9E; }
+.booked-fea-appt-list .appt-block a.delete:hover { color:#E35656; }
+.booked-fea-appt-list .appt-block .late-appt { color:#D54E21; }
+.booked-fea-appt-list .appt-block a.booked-show-cf { font-size:13px; font-weight:400; }
+
+.booked-fea-buttons, .booked-wc_status-text { float:right; margin-top:7px; }
+.booked-fea-appt-list .appt-block a.delete { margin:2px 0 0 15px; }
+.booked-fea-appt-list .appt-block button { margin:0; }
+body #booked-profile-page .booked-fea-appt-list button.button-primary { font-weight:600; }
+
+body #booked-profile-page .booked-tabs li .counter { float:right; display:none; margin:9px 0 0 10px; color:#fff; background:#E35656; text-align:center; font-size:10px; font-weight:400; line-height:20px; padding:0 5px; min-width:10px; height:20px; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; }
+.booked-fea-appt-list .appt-block .booked-wc_status-text a { font-size:12px; }
+.booked-fea-appt-list .appt-block .booked-wc_status-text.awaiting, .booked-fea-appt-list .appt-block .booked-wc_status-text.awaiting a { color:#E35656; }
+.booked-fea-appt-list .appt-block .booked-wc_status-text.paid { text-transform:uppercase; font-weight:600; }
+
+body #booked-profile-page .booked-fea-appt-list .appt-block .booked-cal-buttons { display:block; padding:10px 0 0 0; }
+body #booked-profile-page .booked-fea-appt-list .appt-block .booked-cal-buttons a { text-decoration:none; display:inline-block; padding:2px 7px; margin:0 7px 0 0; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; line-height:20px; font-size:11px; }
+body #booked-profile-page .booked-fea-appt-list .appt-block .booked-cal-buttons a:hover { text-decoration:none; }
+
+body .booked-modal .bm-window p.fea-modal-title { font-size:15px; font-weight:600; }
+body .booked-modal .bm-window p.fea-modal-title.fea-bordered { border-top:1px solid #ddd; padding-top:20px; margin-top:20px; }
+
+body #booked-profile-page .booked-fea-appt-list .appt-block .booked-cal-buttons { display:block; padding:15px 0 0 0; }
+body #booked-profile-page .booked-fea-appt-list .appt-block .booked-cal-buttons a { text-decoration:none; display:inline-block; padding:2px 7px; margin:0 7px 0 0; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; line-height:20px; font-size:12px; font-weight:400; }
+body #booked-profile-page .booked-fea-appt-list .appt-block .booked-cal-buttons a:hover { text-decoration:none; }
+body #booked-profile-page .booked-fea-appt-list .appt-block .booked-cal-buttons .google-cal-button > a { font-size:11px; font-weight:600; text-transform:uppercase; padding:2px 9px; margin:0; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; letter-spacing:1px; border-width:1px; border-style:solid; color:#fff; }
+
+body #booked-profile-page .booked-fea-appt-list .appt-block .booked-cal-buttons a.atcb-item-link { box-sizing:border-box; text-decoration: none; outline: none; display: block; color:#aaa; background:#f9f9f9; -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; margin:0; width:100%; padding:3px 12px; display:block; }
+body #booked-profile-page .booked-fea-appt-list .appt-block .booked-cal-buttons a.atcb-item-link:hover { color:#555; }
+body #booked-profile-page .booked-fea-appt-list .appt-block .booked-cal-buttons .atcb-list li:first-child a.atcb-item-link { padding-top:10px; }
+body #booked-profile-page .booked-fea-appt-list .appt-block .booked-cal-buttons .atcb-list li:last-child a.atcb-item-link { padding-bottom:10px; -moz-border-radius:0 0 3px 3px; -webkit-border-radius:0 0 3px 3px; border-radius:0 0 3px 3px; }
+
+body #booked-profile-page .booked-fea-appt-list .appt-block .booked-cal-buttons .google-cal-button > a {
+	-webkit-transition: all .2s ease-out;
+	-moz-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+}

@@ -1,0 +1,45 @@
+.woocommerce.product-columns-2 ul.products li.product,
+.woocommerce-page.product-columns-2 ul.products li.product {
+  width: 48%;
+  margin-right: 3.8%;
+}
+.woocommerce.product-columns-2 ul.products li.product.last,
+.woocommerce-page.product-columns-2 ul.products li.product.last {
+  margin-right: 0;
+}
+.woocommerce.product-columns-3 ul.products li.product,
+.woocommerce-page.product-columns-3 ul.products li.product {
+  width: 30.75%;
+  margin-right: 3.8%;
+}
+.woocommerce.product-columns-3 ul.products li.product.last,
+.woocommerce-page.product-columns-3 ul.products li.product.last {
+  margin-right: 0;
+}
+.woocommerce.product-columns-4 ul.products li.product,
+.woocommerce-page.product-columns-4 ul.products li.product {
+  width: 22.05%;
+  margin-right: 3.8%;
+}
+.woocommerce.product-columns-4 ul.products li.product.last,
+.woocommerce-page.product-columns-4 ul.products li.product.last {
+  margin-right: 0;
+}
+.woocommerce.product-columns-5 ul.products li.product,
+.woocommerce-page.product-columns-5 ul.products li.product {
+  width: 16.9%;
+  margin-right: 3.8%;
+}
+.woocommerce.product-columns-5 ul.products li.product.last,
+.woocommerce-page.product-columns-5 ul.products li.product.last {
+  margin-right: 0;
+}
+.woocommerce.post-type-archive-product.wc-pac-hide-sale-flash .product .onsale,
+.woocommerce.post-type-archive-product.wc-pac-hide-product-count .woocommerce-result-count,
+.woocommerce.post-type-archive-product.wc-pac-hide-product-sorting .woocommerce-ordering,
+.woocommerce.post-type-archive-product.wc-pac-hide-add-to-cart .product .add_to_cart_button,
+.woocommerce.post-type-archive-product.wc-pac-hide-thumbnail .product .wp-post-image,
+.woocommerce.post-type-archive-product.wc-pac-hide-price .product .price,
+.woocommerce.post-type-archive-product.wc-pac-hide-rating .product .star-rating {
+  display: none;
+}

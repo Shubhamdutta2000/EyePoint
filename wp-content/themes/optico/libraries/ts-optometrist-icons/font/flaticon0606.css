@@ -1,0 +1,93 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 07/03/2018 13:37
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("Flaticon.eot");
+  src: url("Flaticond41d.eot?#iefix") format("embedded-opentype"),
+       url("Flaticon.woff") format("woff"),
+       url("Flaticon.ttf") format("truetype"),
+       url("Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+}
+
+.flaticon-ophthalmologist-1:before { content: "\f100"; }
+.flaticon-laryngoscope:before { content: "\f101"; }
+.flaticon-brock-cord:before { content: "\f102"; }
+.flaticon-multiestenope:before { content: "\f103"; }
+.flaticon-optometry-1:before { content: "\f104"; }
+.flaticon-ophthalmoscope:before { content: "\f105"; }
+.flaticon-divergence-cards:before { content: "\f106"; }
+.flaticon-filters:before { content: "\f107"; }
+.flaticon-retinoscope:before { content: "\f108"; }
+.flaticon-glasses-1:before { content: "\f109"; }
+.flaticon-tears:before { content: "\f10a"; }
+.flaticon-lens-1:before { content: "\f10b"; }
+.flaticon-eye-2:before { content: "\f10c"; }
+.flaticon-eye-1:before { content: "\f10d"; }
+.flaticon-loupe:before { content: "\f10e"; }
+.flaticon-hospital:before { content: "\f10f"; }
+.flaticon-foroptero:before { content: "\f110"; }
+.flaticon-glasses:before { content: "\f111"; }
+.flaticon-lens-holder:before { content: "\f112"; }
+.flaticon-slit-lamp:before { content: "\f113"; }
+.flaticon-testing-glasses-1:before { content: "\f114"; }
+.flaticon-optometrist-14:before { content: "\f115"; }
+.flaticon-testing-glasses:before { content: "\f116"; }
+.flaticon-eye:before { content: "\f117"; }
+.flaticon-optometrist-13:before { content: "\f118"; }
+.flaticon-laser-surgery:before { content: "\f119"; }
+.flaticon-woman:before { content: "\f11a"; }
+.flaticon-pipette:before { content: "\f11b"; }
+.flaticon-eye-drops-4:before { content: "\f11c"; }
+.flaticon-optometry:before { content: "\f11d"; }
+.flaticon-lens:before { content: "\f11e"; }
+.flaticon-contact-lens-4:before { content: "\f11f"; }
+.flaticon-boy:before { content: "\f120"; }
+.flaticon-contact-lens-3:before { content: "\f121"; }
+.flaticon-eye-drops-3:before { content: "\f122"; }
+.flaticon-optometrist-12:before { content: "\f123"; }
+.flaticon-optometrist-11:before { content: "\f124"; }
+.flaticon-optometrist-10:before { content: "\f125"; }
+.flaticon-eye-test-1:before { content: "\f126"; }
+.flaticon-optometrist-9:before { content: "\f127"; }
+.flaticon-optometrist-8:before { content: "\f128"; }
+.flaticon-eye-test:before { content: "\f129"; }
+.flaticon-eye-drops-2:before { content: "\f12a"; }
+.flaticon-optometrist-7:before { content: "\f12b"; }
+.flaticon-optometrist-6:before { content: "\f12c"; }
+.flaticon-eye-drops-1:before { content: "\f12d"; }
+.flaticon-optometrist-5:before { content: "\f12e"; }
+.flaticon-optometrist-4:before { content: "\f12f"; }
+.flaticon-contact-lens-2:before { content: "\f130"; }
+.flaticon-optometrist-3:before { content: "\f131"; }
+.flaticon-contact-lens-1:before { content: "\f132"; }
+.flaticon-optometrist-2:before { content: "\f133"; }
+.flaticon-ophthalmologist:before { content: "\f134"; }
+.flaticon-patient:before { content: "\f135"; }
+.flaticon-optometrist-1:before { content: "\f136"; }
+.flaticon-contact-lens:before { content: "\f137"; }
+.flaticon-checkup:before { content: "\f138"; }
+.flaticon-eye-drops:before { content: "\f139"; }
+.flaticon-hyperopia:before { content: "\f13a"; }
+.flaticon-optometrist:before { content: "\f13b"; }
+.flaticon-desk:before { content: "\f13c"; }
+.flaticon-eyeglasses:before { content: "\f13d"; }
+.flaticon-diagnostic:before { content: "\f13e"; }
