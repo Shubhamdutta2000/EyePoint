@@ -1430,8 +1430,8 @@
 							loop: true,
 							nav: false,
 							autoplay: true,
-							autoplayTimeout: 4000,
-							autoplayHoverPause: true,
+							autoplayTimeout: 3000,
+							autoplayHoverPause: false,
 							navText: [
 								'<svg width="50" height="50" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>',
 								'<svg width="50" height="50" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>' /* icons from https://iconmonstr.com */
@@ -1799,11 +1799,10 @@
 																		<div
 																			class="themestek-static-box-wrapper themestek-boxes-feature-plans ts-hover-style-2 themestek-box">
 																			<div
-																				class="themestek-static-box-image">
+																				class="themestek-static-box-imge">
 																				<img class="ts_vc_single_image-img "
-																					src="wp-content/uploads/sites/2/2018/02/07-380x222.jpg"
-																					width="380"
-																					height="222"
+																					src="images/DSC_0147.JPG"
+																					style="width: 100%; height: 100%"
 																					alt="07"
 																					title="07" />
 																			</div>
@@ -1836,7 +1835,7 @@
 																			<div
 																				class="themestek-static-box-image">
 																				<img class="ts_vc_single_image-img "
-																					src="wp-content/uploads/sites/2/2018/04/sliderimage-380x222.jpg"
+																					src="images/DSC_0149.JPG"
 																					width="380"
 																					height="222"
 																					alt="sliderimage"
@@ -1872,7 +1871,7 @@
 																			<div
 																				class="themestek-static-box-image">
 																				<img class="ts_vc_single_image-img "
-																					src="wp-content/uploads/sites/2/2018/02/18-380x222.jpg"
+																					src="images/DSC_0120.JPG"
 																					width="380"
 																					height="222"
 																					alt="18"
@@ -1908,7 +1907,7 @@
 																			<div
 																				class="themestek-static-box-image">
 																				<img class="ts_vc_single_image-img "
-																					src="wp-content/uploads/sites/2/2018/02/11-380x222.jpg"
+																					src="images/DSC_0155.JPG"
 																					width="380"
 																					height="222"
 																					alt="11"
@@ -1943,8 +1942,9 @@
 																	$('.owl-carousel').owlCarousel({
 																		loop: true,
 																		items: 3,
+																		autoplay: true,								
+																		autoplayTimeout: 1500,
 																		margin: 0,
-																	
 																		responsive: {
 																			0: {
 																				items: 1
@@ -2281,8 +2281,9 @@
 										</div>
 
 										
-										<!-- 3rd Carousel -->
-									
+										<!-- Our Services -->
+										
+										<h2 class="d-flex justify-content-center mb-5 pb-5" style="color: #6cad33">Our Services</h2>
 										<div data-vc-full-width="true" data-vc-full-width-init="false"
 											data-vc-stretch-content="true"
 											class="ts-row wpb_row vc_row-fluid vc_custom_1524991462706 vc_row-has-fill ts-bgimage-position-center_center">
@@ -2300,54 +2301,9 @@
 																	class="themestek-boxes-inner themestek-boxes-portfolio-inner ">
 
 
-																<!-- Carousel starts here -->
 
 																	<div	class=" row multi-columns-row themestek-boxes-row-wrapper">
-																		<div
-																			class="ts-box-col-wrapper col-lg-20percent col-sm-4 col-md-4 col-xs-12 glaucoma-surgery">
-																			<article
-																				class="themestek-box themestek-box-portfolio ts-portfoliobox-style-2 themestek-box-view-overlay ts-hover-style-3 ">
-																				<div
-																					class="themestek-post-item">
-
-																					<span
-																						class="themestek-item-thumbnail">
-																						<span
-																							class="themestek-item-thumbnail-inner">
-																							<img width="800"
-																								height="715"
-																								src="wp-content/uploads/sites/2/2018/02/11-800x715.jpg"
-																								class="attachment-themestek-img-800x715 size-themestek-img-800x715 wp-post-image"
-																								alt=""
-																								data-id="3866" />
-																						</span>
-																					</span>
-																					<div
-																						class="themestek-box-content themestek-overlay">
-																						<div
-																							class="themestek-box-content-inner">
-																							<div
-																								class="themestek-pf-box-title">
-																								<h2><a>Paeditaric Ophthalmology</a>
-																								</h2>
-																								<div
-																									class="themestek-box-category" style="font-size: 18px;">
-																									<a rel="tag">Glaucoma
-																										Surgery</a>
-																								</div>
-																							</div>
-																							<div
-																								class="themestek-icon-box themestek-media-link" >
-																								<a class="ts_prettyphoto"
-																									title="Paeditaric Ophthalmology"
-																									href="wp-content/uploads/sites/2/2018/02/11.jpg"><i
-																										class="demo-icon ts-optico-icon-resize-full"></i></a>
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
+																		
 																		<div
 																			class="ts-box-col-wrapper col-lg-20percent col-sm-4 col-md-4 col-xs-12 eye-treatment laser-eye-surgery">
 																			<article
@@ -2359,9 +2315,10 @@
 																						class="themestek-item-thumbnail">
 																						<span
 																							class="themestek-item-thumbnail-inner">
-																							<img width="800"
-																								height="715"
-																								src="wp-content/uploads/sites/2/2018/02/06-800x715.jpg"
+																							<img 
+																								src="./images/DSC_0145.JPG"																								
+																								style="width: 100%; 
+																									  height:400px;"
 																								class="attachment-themestek-img-800x715 size-themestek-img-800x715 wp-post-image"
 																								alt=""
 																								data-id="3861" />
@@ -2387,7 +2344,7 @@
 																								class="themestek-icon-box themestek-media-link" >
 																								<a class="ts_prettyphoto"
 																									title="Surgical Procedures"
-																									href="wp-content/uploads/sites/2/2018/02/06.jpg"><i
+																									href="./images/DSC_0145.JPG"><i
 																										class="demo-icon ts-optico-icon-resize-full"></i></a>
 																							</div>
 																						</div>
@@ -2406,9 +2363,9 @@
 																						class="themestek-item-thumbnail">
 																						<span
 																							class="themestek-item-thumbnail-inner">
-																							<img width="800"
-																								height="715"
-																								src="wp-content/uploads/sites/2/2018/02/08-800x715.jpg"
+																							<img 
+																								src="./images/DSC_0155.JPG"
+																								style="width: 100%; height:400px;"
 																								class="attachment-themestek-img-800x715 size-themestek-img-800x715 wp-post-image"
 																								alt=""
 																								data-id="3863" />
@@ -2434,7 +2391,7 @@
 																								class="themestek-icon-box themestek-media-link">
 																								<a class="ts_prettyphoto"
 																									title="Transitions Lenses"
-																									href="wp-content/uploads/sites/2/2018/02/08.jpg"><i
+																									href="./images/DSC_0155.JPG"><i
 																										class="demo-icon ts-optico-icon-resize-full"></i></a>
 																							</div>
 																						</div>
@@ -2455,7 +2412,8 @@
 																							class="themestek-item-thumbnail-inner">
 																							<img width="800"
 																								height="715"
-																								src="wp-content/uploads/sites/2/2018/02/17-800x715.jpg"
+																								src="./images/DSC_0150.JPG"
+																								style="width: 100%; height:400px;"
 																								class="attachment-themestek-img-800x715 size-themestek-img-800x715 wp-post-image"
 																								alt=""
 																								data-id="3872" />
@@ -2479,7 +2437,7 @@
 																								class="themestek-icon-box themestek-media-link" >
 																								<a class="ts_prettyphoto"
 																									title="Refractive Nature"
-																									href="wp-content/uploads/sites/2/2018/02/17.jpg"><i
+																									href="./images/DSC_0150.JPG"><i
 																										class="demo-icon ts-optico-icon-resize-full"></i></a>
 																							</div>
 																						</div>
@@ -2487,52 +2445,7 @@
 																				</div>
 																			</article>
 																		</div>
-																		<div
-																			class="ts-box-col-wrapper col-lg-20percent col-sm-4 col-md-4 col-xs-12 cataract-surgery">
-																			<article
-																				class="themestek-box themestek-box-portfolio ts-portfoliobox-style-2 themestek-box-view-overlay ts-hover-style-3 ">
-																				<div
-																					class="themestek-post-item">
-
-																					<span
-																						class="themestek-item-thumbnail">
-																						<span
-																							class="themestek-item-thumbnail-inner">
-																							<img width="800"
-																								height="715"
-																								src="wp-content/uploads/sites/2/2018/02/15-800x715.jpg"
-																								class="attachment-themestek-img-800x715 size-themestek-img-800x715 wp-post-image"
-																								alt=""
-																								data-id="3870" />
-																						</span>
-																					</span>
-																					<div
-																						class="themestek-box-content themestek-overlay">
-																						<div
-																							class="themestek-box-content-inner">
-																							<div
-																								class="themestek-pf-box-title">
-																								<h2><a>Letterpres Asymmetrical</a>
-																								</h2>
-																								<div
-																									class="themestek-box-category" style="font-size: 18px;">
-																									<a rel="tag">Cataract
-																										Surgery</a>
-																								</div>
-																							</div>
-																							<div
-																								class="themestek-icon-box themestek-media-link">
-																								<a class="ts_prettyphoto"
-																									title="Letterpress Asymmetrical"
-																									href="wp-content/uploads/sites/2/2018/02/15.jpg"><i
-																										class="demo-icon ts-optico-icon-resize-full"></i></a>
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																	</div>
+																																			</div>
 																</div><!-- .themestek-boxes-inner -->
 															</div><!-- .themestek-boxes -->
 														</div>
@@ -2589,7 +2502,7 @@
 																				</div>
 																				<div
 																					class="ts-cta3-content-wrapper">
-																					<p>Clear Eye
+																					<p style="font-size: 18px;">Clear Eye
 																						care
 																						services
 																						to
@@ -2657,16 +2570,16 @@
 																						class="ts-vc_icon_element-icon tsoptmicon flaticon-eye"></span>
 																				</div>
 																			</div>
-																			<h4 style="text-align:center;font-size:25px;line-height:35px;font-family:'Montserrat',Arial,Helvetica;font-weight:700;"
+																			<h4 style="text-align:center;font-size:28px;line-height:35px;font-family:'Montserrat',Arial,Helvetica;font-weight:700;"
 																				class="ts-custom-heading ">
-																				Eye Treatment</h4>
+																				Eye Frames</h4>
 
 																			<div
 																				class="wpb_text_column wpb_content_element ">
 																				<div
 																					class="wpb_wrapper">
 																					<p
-																						style="text-align: center;">
+																						style="font-size: 18px; text-align: center;">
 																						Lorem
 																						ipsum
 																						dolor sit
@@ -2697,8 +2610,8 @@
 																				class="ts-vc_btn3-container ts-vc_btn3-center vc_custom_1526294748407">
 																				<a class="ts-vc_general ts-vc_btn3 ts-vc_btn3-size-sm ts-vc_btn3-shape-rounded ts-vc_btn3-style-flat ts-vc_btn3-weight-yes ts-vc_btn3-color-skincolor"
 																					href="#"
-																					title="">GET
-																					OFFER</a></div>
+																					title="">VISIT OUR
+																					STORE</a></div>
 																		</div>
 																	</div>
 																</div>
@@ -2720,14 +2633,14 @@
 																			</div>
 																			<h4 style="text-align:center;font-size:25px;line-height:35px;font-family:'Montserrat',Arial,Helvetica;font-weight:700;"
 																				class="ts-custom-heading ">
-																				Cornea Services</h4>
+																				Glases</h4>
 
 																			<div
 																				class="wpb_text_column wpb_content_element ">
 																				<div
 																					class="wpb_wrapper">
 																					<p
-																						style="text-align: center;">
+																						style="font-size: 18px; text-align: center;">
 																						Lorem
 																						ipsum
 																						dolor sit
@@ -2758,8 +2671,8 @@
 																				class="ts-vc_btn3-container ts-vc_btn3-center vc_custom_1526294748407">
 																				<a class="ts-vc_general ts-vc_btn3 ts-vc_btn3-size-sm ts-vc_btn3-shape-rounded ts-vc_btn3-style-flat ts-vc_btn3-weight-yes ts-vc_btn3-color-skincolor"
 																					href="#"
-																					title="">GET
-																					OFFER</a></div>
+																					title="">VISIT OUR
+																					STORE</a></div>
 																		</div>
 																	</div>
 																</div>
@@ -2788,7 +2701,7 @@
 																				<div
 																					class="wpb_wrapper">
 																					<p
-																						style="text-align: center;">
+																						style="font-size: 18px; text-align: center;">
 																						Lorem
 																						ipsum
 																						dolor sit
@@ -2819,8 +2732,8 @@
 																				class="ts-vc_btn3-container ts-vc_btn3-center vc_custom_1526294748407">
 																				<a class="ts-vc_general ts-vc_btn3 ts-vc_btn3-size-sm ts-vc_btn3-shape-rounded ts-vc_btn3-style-flat ts-vc_btn3-weight-yes ts-vc_btn3-color-skincolor"
 																					href="#"
-																					title="">GET
-																					OFFER</a></div>
+																					title="">VISIT OUR
+																					STORE</a></div>
 																		</div>
 																	</div>
 																</div>
@@ -2837,6 +2750,9 @@
 
 										<div class="vc_row-full-width vc_clearfix"></div>
 
+										
+										<!-- FAQS -->
+
 										<div data-vc-full-width="true" data-vc-full-width-init="false"
 											class="ts-row wpb_row vc_row-fluid clearfix vc_custom_1527857176059 vc_row-has-fill ts-bgcolor-grey ts-bgimage-position-center_center">
 
@@ -2844,254 +2760,7 @@
 											<div class="vc_row container">
 
 												<div
-													class="ts-column wpb_column vc_column_container vc_col-sm-6">
-													<div
-														class="vc_column-inner vc_custom_1529144643465 ts-responsive-custom-71087360">
-														<div class="wpb_wrapper">
-															<div
-																class="themestek-boxes themestek-boxes-blog themestek-boxes-view-default themestek-boxes-col-one themestek-boxes-sortable-no themestek-boxes-textalign-left themestek-boxes-sortablebutton-">
-																<div
-																	class="themestek-boxes-inner themestek-boxes-blog-inner ">
-																	<div
-																		class="themestek-box-heading-wrapper ts-element-align-left">
-																		<div
-																			class="ts-element-heading-wrapper ts-heading-inner ts-element-align-left ts-seperator-none ">
-																			<section
-																				class="ts-vc_cta3-container">
-																				<div
-																					class="ts-vc_general ts-vc_cta3 ts-cta3-only ts-vc_cta3-style-classic ts-vc_cta3-shape-rounded ts-vc_cta3-align-left ts-vc_cta3-color-transparent ts-vc_cta3-icon-size-md ts-vc_cta3-actions-no ts-cta3-without-desc">
-																					<div
-																						class="ts-vc_cta3_content-container">
-																						<div
-																							class="ts-vc_cta3-content">
-																							<div
-																								class="ts-vc_cta3-content-header ts-wrap">
-																								<div
-																									class="ts-vc_cta3-headers ts-wrap-cell">
-																									<h4
-																										class="ts-custom-heading ">
-																										RECENT
-																										NEWS
-																									</h4>
-																									<h2
-																										class="ts-custom-heading ">
-																										WHAT'S
-																										GOING
-																										ON<br />
-																										<strong>IN
-																											OUR
-																											BLOG?</strong>
-																									</h2>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																			</section>
-																		</div>
-																		<!-- .ts-element-heading-wrapper container -->
-																	</div>
-																	<!-- .ts-element-heading-wrapper container -->
-
-																	<div
-																		class="row multi-columns-row themestek-boxes-row-wrapper">
-																		<div
-																			class="ts-box-col-wrapper col-lg-12 col-sm-12 col-md-12 col-xs-12 paediatric">
-																			<article
-																				class="themestek-box themestek-box-blog ts-blogbox-style-2 themestek-blogbox-format-  themestek-box-view-style2 themestek-blog-box-view-left-image themestek-blog-box-lr">
-																				<div
-																					class="post-item">
-
-																					<div
-																						class="col-md-4 col-sm-4 themestek-box-img-left">
-																						<div
-																							class="ts-featured-wrapper ts-post-featured-wrapper ts-post-format-">
-																							<img width="800"
-																								height="740"
-																								src="wp-content/uploads/sites/2/2018/02/04-800x740.jpg"
-																								class="attachment-themestek-img-800x740 size-themestek-img-800x740 wp-post-image"
-																								alt=""
-																								data-id="3877" />
-																						</div>
-																					</div>
-
-																					<div
-																						class="themestek-box-content col-md-8 col-sm-8">
-																						<div
-																							class="themestek-box-content-inner">
-																							<div
-																								class="ts-featured-meta-wrapper ts-featured-overlay">
-
-																								<span
-																									class="ts-meta-line cat-links"><i
-																										class="ts-optico-icon-category"></i>
-																									<span
-																										class="screen-reader-text ts-hide">Categories
-																									</span><a
-																										href="category/paediatric/index.html">Paediatric</a></span>
-
-																								<span
-																									class="ts-meta-line posted-on">
-																									<i
-																										class="ts-optico-icon-clock"></i>
-																									<span
-																										class="screen-reader-text ts-hide">Posted
-																										on
-																									</span>
-																									<a href="2018/02/18/thats-why-it-is-so-important-to-see-an-ophthalmologist/index.html"
-																										rel="bookmark">
-																										<time class="entry-date published"
-																											datetime="2018-02-18T09:49:46+00:00">February
-																											18,
-																											2018</time>
-																										<time class="updated ts-hide"
-																											datetime="2018-06-16T13:13:24+00:00">June
-																											16,
-																											2018</time>
-																									</a>
-																								</span>
-
-																							</div>
-																							<div
-																								class="themestek-box-title">
-																								<h4><a
-																										href="2018/02/18/thats-why-it-is-so-important-to-see-an-ophthalmologist/index.html">That&#8217;s
-																										why
-																										it
-																										is
-																										so
-																										important
-																										to
-																										see
-																										an
-																										ophthalmologist</a>
-																								</h4>
-																							</div>
-																							<div
-																								class="themestek-box-desc">
-																								<div
-																									class="themestek-box-desc-text">
-																									<p>Eyecare
-																										Sed
-																										ut
-																										perspiciatis
-																										unde
-																										omnis
-																										iste
-																										natus
-																										error
-																										doloremque
-																										laudantium.
-																									</p>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																		<div
-																			class="ts-box-col-wrapper col-lg-12 col-sm-12 col-md-12 col-xs-12 glaucoma">
-																			<article
-																				class="themestek-box themestek-box-blog ts-blogbox-style-2 themestek-blogbox-format-  themestek-box-view-style2 themestek-blog-box-view-left-image themestek-blog-box-lr">
-																				<div
-																					class="post-item">
-
-																					<div
-																						class="col-md-4 col-sm-4 themestek-box-img-left">
-																						<div
-																							class="ts-featured-wrapper ts-post-featured-wrapper ts-post-format-">
-																							<img width="800"
-																								height="740"
-																								src="wp-content/uploads/sites/2/2018/02/14-800x740.jpg"
-																								class="attachment-themestek-img-800x740 size-themestek-img-800x740 wp-post-image"
-																								alt=""
-																								data-id="3869" />
-																						</div>
-																					</div>
-
-																					<div
-																						class="themestek-box-content col-md-8 col-sm-8">
-																						<div
-																							class="themestek-box-content-inner">
-																							<div
-																								class="ts-featured-meta-wrapper ts-featured-overlay">
-
-																								<span
-																									class="ts-meta-line cat-links"><i
-																										class="ts-optico-icon-category"></i>
-																									<span
-																										class="screen-reader-text ts-hide">Categories
-																									</span><a
-																										href="category/glaucoma/index.html">Glaucoma</a></span>
-
-																								<span
-																									class="ts-meta-line posted-on">
-																									<i
-																										class="ts-optico-icon-clock"></i>
-																									<span
-																										class="screen-reader-text ts-hide">Posted
-																										on
-																									</span>
-																									<a href="2018/01/21/signs-or-risk-factors-for-eye-disease/index.html"
-																										rel="bookmark">
-																										<time class="entry-date published"
-																											datetime="2018-01-21T10:43:28+00:00">January
-																											21,
-																											2018</time>
-																										<time class="updated ts-hide"
-																											datetime="2018-06-16T13:13:59+00:00">June
-																											16,
-																											2018</time>
-																									</a>
-																								</span>
-
-																							</div>
-																							<div
-																								class="themestek-box-title">
-																								<h4><a
-																										href="2018/01/21/signs-or-risk-factors-for-eye-disease/index.html">Signs
-																										or
-																										risk
-																										factors
-																										for
-																										eye
-																										disease</a>
-																								</h4>
-																							</div>
-																							<div
-																								class="themestek-box-desc">
-																								<div
-																									class="themestek-box-desc-text">
-																									<p>Eyecare
-																										Sed
-																										ut
-																										perspiciatis
-																										unde
-																										omnis
-																										iste
-																										natus
-																										error
-																										doloremque
-																										laudantium.
-																									</p>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																	</div>
-																</div><!-- .themestek-boxes-inner -->
-															</div><!-- .themestek-boxes -->
-														</div>
-													</div>
-												</div>
-
-
-												<div
-													class="ts-column wpb_column vc_column_container vc_col-sm-6">
+													class="ts-column wpb_column vc_column_container">
 													<div class="vc_column-inner  ">
 														<div class="wpb_wrapper">
 															<div
@@ -3109,19 +2778,19 @@
 																					<div
 																						class="ts-vc_cta3-headers ts-wrap-cell">
 																						<h4
-																							class="ts-custom-heading ">
+																							class="d-flex justify-content-center ts-custom-heading ">
 																							FREQUENTLY
 																							ASKED
 																							QUESTIONS
 																						</h4>
 																						<h2
-																							class="ts-custom-heading ">
+																							class="d-flex justify-content-center ts-custom-heading ">
 																							FEEL
 																							FREE
-																							FOR<br />
-																							<strong>ANY
-																								FAQS</strong>
+																							FOR
 																						</h2>
+																						<br />
+																						<h2 class="d-flex justify-content-center" ><strong>ANY FAQS</strong></h2>
 																					</div>
 																				</div>
 																			</div>
@@ -3162,35 +2831,7 @@
 																					<div
 																						class="ts-row-inner vc_row wpb_row vc_inner vc_row-fluid vc_custom_1524999062760">
 
-																						<div
-																							class="ts-column-inner wpb_column vc_column_container vc_col-sm-2">
-																							<div
-																								class="vc_column-inner vc_custom_1524998704455 ">
-
-																								<div
-																									class="wpb_wrapper">
-
-																									<div
-																										class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1524998927408">
-
-																										<figure
-																											class="wpb_wrapper vc_figure">
-																											<div
-																												class="vc_single_image-wrapper   vc_box_border_grey">
-																												<img class="vc_single_image-img "
-																													src="wp-content/uploads/sites/2/2018/02/14-80x70.jpg"
-																													width="80"
-																													height="70"
-																													alt="14"
-																													title="14" />
-																											</div>
-																										</figure>
-																									</div>
-																								</div>
-																							</div>
-																						</div>
-
-
+																						
 																						<div
 																							class="ts-column-inner wpb_column vc_column_container vc_col-sm-10">
 																							<div
@@ -3203,7 +2844,7 @@
 																										class="wpb_text_column wpb_content_element  vc_custom_1524998932658">
 																										<div
 																											class="wpb_wrapper">
-																											<p>Lorem
+																											<p style="font-size: 18px;">Lorem
 																												ipsum
 																												dolor
 																												sit
@@ -3264,35 +2905,6 @@
 																						class="ts-row-inner vc_row wpb_row vc_inner vc_row-fluid vc_custom_1524999062760">
 
 																						<div
-																							class="ts-column-inner wpb_column vc_column_container vc_col-sm-2">
-																							<div
-																								class="vc_column-inner vc_custom_1524998704455 ">
-
-																								<div
-																									class="wpb_wrapper">
-
-																									<div
-																										class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1527833878463">
-
-																										<figure
-																											class="wpb_wrapper vc_figure">
-																											<div
-																												class="vc_single_image-wrapper   vc_box_border_grey">
-																												<img class="vc_single_image-img "
-																													src="wp-content/uploads/sites/2/2018/05/teamimage5-80x70.jpg"
-																													width="80"
-																													height="70"
-																													alt="teamimage5"
-																													title="teamimage5" />
-																											</div>
-																										</figure>
-																									</div>
-																								</div>
-																							</div>
-																						</div>
-
-
-																						<div
 																							class="ts-column-inner wpb_column vc_column_container vc_col-sm-10">
 																							<div
 																								class="vc_column-inner  ">
@@ -3304,7 +2916,7 @@
 																										class="wpb_text_column wpb_content_element  vc_custom_1524998932658">
 																										<div
 																											class="wpb_wrapper">
-																											<p>Lorem
+																											<p style="font-size: 18px;">Lorem
 																												ipsum
 																												dolor
 																												sit
@@ -3362,35 +2974,7 @@
 																					<div
 																						class="ts-row-inner vc_row wpb_row vc_inner vc_row-fluid vc_custom_1524999062760">
 
-																						<div
-																							class="ts-column-inner wpb_column vc_column_container vc_col-sm-2">
-																							<div
-																								class="vc_column-inner vc_custom_1524998704455 ">
-
-																								<div
-																									class="wpb_wrapper">
-
-																									<div
-																										class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1527833921799">
-
-																										<figure
-																											class="wpb_wrapper vc_figure">
-																											<div
-																												class="vc_single_image-wrapper   vc_box_border_grey">
-																												<img class="vc_single_image-img "
-																													src="wp-content/uploads/sites/2/2018/05/teamimage3-80x70.jpg"
-																													width="80"
-																													height="70"
-																													alt="teamimage3"
-																													title="teamimage3" />
-																											</div>
-																										</figure>
-																									</div>
-																								</div>
-																							</div>
-																						</div>
-
-
+																						
 																						<div
 																							class="ts-column-inner wpb_column vc_column_container vc_col-sm-10">
 																							<div
@@ -3403,7 +2987,7 @@
 																										class="wpb_text_column wpb_content_element  vc_custom_1524998932658">
 																										<div
 																											class="wpb_wrapper">
-																											<p>Lorem
+																											<p style="font-size: 18px;">Lorem
 																												ipsum
 																												dolor
 																												sit
@@ -3462,33 +3046,6 @@
 																					<div
 																						class="ts-row-inner vc_row wpb_row vc_inner vc_row-fluid vc_custom_1524999062760">
 
-																						<div
-																							class="ts-column-inner wpb_column vc_column_container vc_col-sm-2">
-																							<div
-																								class="vc_column-inner vc_custom_1524998704455 ">
-
-																								<div
-																									class="wpb_wrapper">
-
-																									<div
-																										class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1527833961832">
-
-																										<figure
-																											class="wpb_wrapper vc_figure">
-																											<div
-																												class="vc_single_image-wrapper   vc_box_border_grey">
-																												<img class="vc_single_image-img "
-																													src="wp-content/uploads/sites/2/2018/05/teamimage2-80x70.jpg"
-																													width="80"
-																													height="70"
-																													alt="teamimage2"
-																													title="teamimage2" />
-																											</div>
-																										</figure>
-																									</div>
-																								</div>
-																							</div>
-																						</div>
 
 
 																						<div
@@ -3503,7 +3060,7 @@
 																										class="wpb_text_column wpb_content_element  vc_custom_1524998932658">
 																										<div
 																											class="wpb_wrapper">
-																											<p>Lorem
+																											<p style="font-size: 18px;">Lorem
 																												ipsum
 																												dolor
 																												sit
@@ -3610,18 +3167,11 @@
 																					class="ts-vc_cta3-headers ts-wrap-cell">
 																					<h2 style="font-size:22px;line-height:36px;"
 																						class="ts-custom-heading ">
-																						If you
-																						Have Any
-																						Questions
-																						Schedule
-																						an
-																						Appointment
-																						<strong>With
-																							Our
-																							Doctor
-																							OR
-																							Call
-																							Us On
+																						Contact Us 
+																						<strong>
+																							By 
+																							Calling
+																							On
 																							(010)123-456-7890</strong>
 																					</h2>
 																				</div>
@@ -3633,9 +3183,8 @@
 																				class="ts-vc_btn3-container ts-vc_btn3-right">
 																				<a class="ts-vc_general ts-vc_btn3 ts-vc_btn3-size-md ts-vc_btn3-shape-rounded ts-vc_btn3-style-flat ts-vc_btn3-weight-yes ts-vc_btn3-color-black"
 																					href="#"
-																					title=""> Make
-																					an
-																					Appointment</a>
+																					title="">VISIT OUR STORE																					
+																					</a>
 																			</div>
 																		</div>
 																	</div>
