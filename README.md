@@ -1,6 +1,6 @@
-# Eye Care
+# Eye Point
 
-A website of eye shop where you can get glasses, sunglasses and contact-lenses.
+This is a website of eye shop where you can get glasses, sunglasses and contact-lenses.
 
 ## DEMO
 
