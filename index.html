@@ -587,7 +587,17 @@
 		.header ul {
 			margin: 0;
 			padding: 0;
-			background-color: #6cad33;
+   /* Background Gradient for Analagous Colors */
+    background-color: #00DD6E;
+    /* For WebKit (Safari, Chrome, etc) */
+    background: #00DD6E -webkit-gradient(linear, left top, left bottom, from(#38D9AD), to(#2FAEAE)) no-repeat;
+    /* Mozilla,Firefox/Gecko */
+    background: #00DD6E -moz-linear-gradient(top, #00B8DD, #00DD6E) no-repeat;
+    /* IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00B8DD, endColorstr=#00DD6E) no-repeat;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00B8DD, endColorstr=#00B8DD)" no-repeat;
+
 			list-style: none;
 			overflow: hidden;
 		}
@@ -597,23 +607,23 @@
 			font-family: "Poppins", Tahoma, Geneva, sans-serif;
 			font-size: 16px;
 			display: block;
-			padding: 10px 10px;
+			padding: 15px 15px;
 			text-decoration: none;
 		}
 
 		.header li a:hover,
 		.header .menu-btn:hover {
-			color: #7fc540;
+			color: #77ff00;
 			transition: all .2s ease-in-out;
-			background-color: rgba(0, 0, 0, 0.10);
+			background-color: rgba(0, 0, 0, 0.137);
 		}
 
 		.header .logo {
-			font-size: 30px;
-			color: white;
+			width: 226px;
+			height: 64px;
 			float: left;
-			margin-left: 20px;
-			margin-top: 4px;
+			margin-top: 12px;
+			margin-left: 4px;
 		}
 
 		.header .menu {
@@ -686,7 +696,7 @@
 		}
 
 		/* Responsive */
-		@media only screen and (max-width: 840px) {
+		@media only screen and (max-width: 878px) {
 			.header {
 				background-color: #894747;
 			}
@@ -718,11 +728,11 @@
 			}
 		}
 
-		@media only screen and (min-width: 840px) {
+		@media only screen and (min-width: 878px) {
 			.menu-wrapper {
 
-				background: #42464e;
-				height: 70px;
+				background: #894747;
+				height: 87px;
 				line-height: 55px;
 				width: 100%;
 			}
@@ -736,9 +746,9 @@
 			}
 
 			.header li a {
-				color: #fff;
-				padding: 10px 20px 5px 20px;
-				border-right: 1px solid rgba(255, 255, 255, 0.2);
+				color: white;
+				padding: 16px 25px 16px 25px;
+				border-right: 2px solid rgba(255, 255, 255, 0.2);
 			}
 
 			.header .menu {
@@ -1195,7 +1205,7 @@
 	<div class="menu-wrapper">
 		<header class="header">
 			<a href="#home" >
-				<img class="logo" src="./images/eyePoint_logo.png" width="220" height="60" alt="">
+				<img class="logo" src="./images/eyePoint_logo.png" alt="">
 			</a>
 			<input class="menu-btn" type="checkbox" id="menu-btn" />
 			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
