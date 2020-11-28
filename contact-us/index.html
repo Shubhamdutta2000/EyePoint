@@ -318,11 +318,10 @@
 		href="../wp-json/oembed/1.0/embed1ec1?url=https%3A%2F%2Foptico.themestek.com%2Fdemo1%2Fcontact-us%2F&amp;format=xml" />
 	<!-- Inline CSS Start -->
 	<style>
-		/* navbar */
-/* navbar */
 
-.header {
-			background-color: #42464e;
+		/* navbar */
+
+		.header {
 			position: relative;
 			width: 100%;
 			z-index: 10;
@@ -331,30 +330,43 @@
 		.header ul {
 			margin: 0;
 			padding: 0;
+			/* Background Gradient for Analagous Colors */
+			background-color: #00DD6E;
+			/* For WebKit (Safari, Chrome, etc) */
+			background: #00DD6E -webkit-gradient(linear, left top, left bottom, from(#38D9AD), to(#2FAEAE)) no-repeat;
+			/* Mozilla,Firefox/Gecko */
+			background: #00DD6E -moz-linear-gradient(top, #00B8DD, #00DD6E) no-repeat;
+			/* IE 5.5 - 7 */
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00B8DD, endColorstr=#00DD6E) no-repeat;
+			/* IE 8 */
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00B8DD, endColorstr=#00B8DD)"no-repeat;
+
 			list-style: none;
 			overflow: hidden;
 		}
 
+
 		.header li a {
 			font-family: "Poppins", Tahoma, Geneva, sans-serif;
-			font-size: 16px;
+			font-size: 18px;
 			display: block;
-			padding: 10px 10px;
+			padding: 15px 15px;
 			text-decoration: none;
 		}
 
 		.header li a:hover,
 		.header .menu-btn:hover {
-			color: #7fc540;
+			color: #77ff00;
 			transition: all .2s ease-in-out;
-			background-color: rgba(0, 0, 0, 0.10);
+			background-color: rgba(0, 0, 0, 0.137);
 		}
 
 		.header .logo {
-			font-size: 30px;
-			color: white;
+			width: 226px;
+			height: 64px;
 			float: left;
-			padding: 18px 18px;
+			margin-top: 8px;
+			margin-left: 4px;
 		}
 
 		.header .menu {
@@ -427,9 +439,9 @@
 		}
 
 		/* Responsive */
-		@media only screen and (max-width: 768px) {
+		@media only screen and (max-width: 878px) {
 			.header {
-				background-color: white;
+				background-color: #894747;
 			}
 
 			.header ul {
@@ -437,15 +449,15 @@
 			}
 
 			.header .menu-icon .navicon {
-				background-color: #026b33;
+				background-color: #4EF300;
 			}
 
 			.header .menu-icon .navicon::before {
-				background-color: #039146;
+				background-color: #32D1F4
 			}
 
 			.header .menu-icon .navicon::after {
-				background-color: #026b33;
+				background-color: #32D1F4;
 			}
 
 			.header .logo {
@@ -459,11 +471,11 @@
 			}
 		}
 
-		@media only screen and (min-width: 768px) {
+		@media only screen and (min-width: 878px) {
 			.menu-wrapper {
 
-				background: #42464e;
-				height: 70px;
+				background: #894747;
+				height: 87px;
 				line-height: 55px;
 				width: 100%;
 			}
@@ -477,9 +489,9 @@
 			}
 
 			.header li a {
-				color: #fff;
-				padding: 10px 20px 5px 20px;
-				border-right: 1px solid rgba(255, 255, 255, 0.2);
+				color: white;
+				padding: 16px 25px 16px 25px;
+				border-right: 2px solid rgba(255, 255, 255, 0.2);
 			}
 
 			.header .menu {
@@ -597,7 +609,7 @@
 	<div class="menu-wrapper">
 		<header class="header">
 			<a href="#home" class="logo">
-				EYECARE
+				<img class="logo" src="../images/eyePoint_logo.png" alt="">
 			</a>
 			<input class="menu-btn" type="checkbox" id="menu-btn" />
 			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
@@ -1021,10 +1033,10 @@
 															src="../wp-content/uploads/sites/2/2018/06/logo.png"
 															height="54">
 													</div>
-
-													<a style="font-weight: 600;" href="">
+													For any further questions or queries feel free to
+													<a style="font-weight: 950;" href="">
 														CONTACT US
-													</a> on
+													</a>
 													<div class="vc_empty_space" style="height: 30px"><span
 															class="vc_empty_space_inner"></span>
 													</div>
@@ -1119,8 +1131,10 @@
 													<li
 														class="themestek-contact-address  ts-optico-icon-location-pin">
 														EYE CARE <br />
-														<a target="_blank" href="https://www.google.com/maps/place/Madhusudhan+Banerjee+Rd,+Birati,+Kolkata,+West+Bengal,+India/@22.6622844,88.4312114,17z/data=!3m1!4b1!4m5!3m4!1s0x39f89ef893d2aaf7:0x1ab5e010c2799814!8m2!3d22.6613634!4d88.435037">
-															Madhusudhan Banerjee Rd, Mahajati Nagar, <br />
+														<a target="_blank"
+															href="https://www.google.com/maps/place/Madhusudhan+Banerjee+Rd,+Birati,+Kolkata,+West+Bengal,+India/@22.6622844,88.4312114,17z/data=!3m1!4b1!4m5!3m4!1s0x39f89ef893d2aaf7:0x1ab5e010c2799814!8m2!3d22.6613634!4d88.435037">
+															Madhusudhan Banerjee Rd, Mahajati Nagar,
+															<br />
 															Birati, Kolkata, West Bengal 700051
 														</a>
 
