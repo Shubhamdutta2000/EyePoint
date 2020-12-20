@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a24a067-b7de-4d91-8ac9-d65b27d44da3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/optico/css/bootstrap-theme.min0606.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/optico/css/bootstrap-theme.min0606.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/optico/css/core.min0606.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/optico/css/core.min0606.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/css/dist/block-library/style.min0606.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/css/dist/block-library/style.min0606.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lv9ShxqWnd3PgbuWKLJe3awWNg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a24a067-b7de-4d91-8ac9-d65b27d44da3" name="Default Changelist" comment="" />
+      <created>1608466705141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608466705141</updated>
+    </task>
+    <servers />
+  </component>
+</project>
